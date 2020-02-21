@@ -8,20 +8,20 @@ Web portal to help people connect with each other and share resources and goods.
 2. Set up the initial migration build the database.
 
 ```
-$ python manage.py makemigrations
-$ python manage.py migrate
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
 ```
 
 3.  Create a superuser:
 
 ```
-$ python manage.py createsuperuser
+$ python3 manage.py createsuperuser
 ```
 
 4.  Confirm everything is working:
 
 ```
-$ python manage.py runserver
+$ python3 manage.py runserver
 ```
 
 ## Authors
