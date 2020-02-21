@@ -30,7 +30,7 @@ $ python3 manage.py runserver
 * [Simran Sahni](https://github.com/Simran-Sahni)&nbsp;&nbsp;
 * [Nikhil Mohan Krishna](https://github.com/samael042)&nbsp;&nbsp;
 * [Raunak Mantri](https://github.com/raunakmantri9)&nbsp;&nbsp;&nbsp;&nbsp;
-* Thanks to [William](https://github.com/wsvincent) for DjangoX boilerplate and to[Pranjal Shukla](https://www.facebook.com/PataNahi0)&nbsp; for valuable feedback, suggestions
+* Thanks to [William](https://github.com/wsvincent) for DjangoX boilerplate and to [Pranjal Shukla](https://www.facebook.com/PataNahi0)&nbsp; for valuable feedback, suggestions
 ## To be added
 
 * Change the model so that user can select the type of resource(food,books,clothes) 
