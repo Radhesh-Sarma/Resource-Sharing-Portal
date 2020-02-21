@@ -63,6 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'users.middleware.ipaddress',
     'django_user_agents.middleware.UserAgentMiddleware',
+    'blog.middleware.email',
 ]
 
 ROOT_URLCONF = 'mpi_project.urls'
