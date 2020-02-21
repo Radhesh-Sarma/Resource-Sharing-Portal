@@ -27,7 +27,9 @@ $ python manage.py runserver
 ## Authors
 
 * [Radhesh Sarma](https://github.com/Radhesh-Sarma) &nbsp;&nbsp;&nbsp;
-
+* [Simran Sahni](https://github.com/Simran-Sahni)&nbsp;&nbsp;
+* [Nikhil Mohan Krishna](https://github.com/samael042)&nbsp;&nbsp;
+* [Raunak Mantri](https://github.com/raunakmantri9)&nbsp;&nbsp;
 ## To be added
 
 * Change the model so that user can select the type of resource(food,books,clothes)
