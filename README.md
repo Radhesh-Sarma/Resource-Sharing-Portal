@@ -29,7 +29,7 @@ $ python3 manage.py runserver
 * [Radhesh Sarma](https://github.com/Radhesh-Sarma) &nbsp;&nbsp;&nbsp;
 * [Simran Sahni](https://github.com/Simran-Sahni)&nbsp;&nbsp;
 * [Nikhil Mohan Krishna](https://github.com/samael042)&nbsp;&nbsp;
-* [Raunak Mantri](https://github.com/raunakmantri9)&nbsp;&nbsp;&nbsp;&nbsp;
+* [Raunak Mantri](https://github.com/mantrir20)&nbsp;&nbsp;&nbsp;&nbsp;
 * Special Thanks to [William](https://github.com/wsvincent)&nbsp;for DjangoX boilerplate
  * Special Thanks to [Pranjal Shukla](https://www.facebook.com/PataNahi0)&nbsp; for valuable feedback, suggestions
 ## To be added
