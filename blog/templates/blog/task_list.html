@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<title>{% block title %}SHARING APP{% endblock title %}</title>
+<meta name="author" content="">
+
+{% block css %}
+<!-- Bootstrap CSS -->
+  <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>tinymce.init({selector:'textarea'});</script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-oOs/gFavzADqv3i5nCM+9CzXe3e5vXLXZ5LZ7PplpsWpTCufB7kqkTlC9FtZ5nJo" crossorigin="anonymous">
+
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-cRAmF0wErT4D9dEBc36qB6pVu+KmLh516IoGWD/Gfm6FicBbyDuHgS4jmkQB8u1a" crossorigin="anonymous">
+
+
+
+<link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+{% endblock %}
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand" href="{% url 'home' %}">SHARING APP</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <a class="navbar-link" href="{% url 'about' %}">About</a>
+        {% if user.is_authenticated %}
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ user.email }}
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userMenu">
+                <a class="dropdown-item" href="{% url 'account_change_password' %}">Change password</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{% url 'account_logout' %}">Log out</a>
+              </div>
+            </li>
+          </ul>
+        {% else %}
+          <form class="form-inline ml-auto">
+            <a href="{% url 'account_login' %}" class="btn btn-outline-secondary">Log in</a>
+            <a href="{% url 'account_signup' %}" class="btn btn-primary ml-2">Sign up</a>
+          </form>
+        {% endif %}
+      </div>
+    </nav>
+
+  <div class="container">
+
+  </div>
+
+    <h1>Share Resources</h1>
+      You are signed in as <strong>{{ user.username }}</strong> 
+    <hr>
+  </header>
+<div class="container">
+    <div class = "jumbotron">
+    </div>
+    {% if tasks|length < 1 %}
+    <h2 style="text-align: center">Hi {{ user.get_username }}</h4>
+    <h4 style="text-align: center">There are no resources shared Yet. Add one below!</h4>
+    {% else %}
+    <h2 style="text-align: center">Hi {{ user.get_username }}</h4>
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col" width="30%">Description</th>
+            <th scope="col" width="30%">Added</th>
+            <th scope="col" width="10%">Actions</th>
+            <th scope="col" width="20%">User</th>
+            <th scope="col" width="20%">Mobile Number</th>
+            <th scope="col" width="35%">Address</th>
+
+          </tr>
+        </thead>
+
+        {% for task in tasks %}
+            {% if task.author.email == user.email or user.email == "admin@gmail.com" %}
+            <tr>
+                <td>{{ task.content }}</td>
+                <td>{{ task.date_created }}</td>
+                <td>
+                    <a href="/remove/{{task.id}}">Delete</a>
+                </td>
+                <td>{{ task.author }}</td>
+                <td>{{ task.author.mobile_number }}</td>
+                <td>{{ task.author.address }}</td>
+            </tr>
+            {% else %}
+            <tr>
+                <td>{{ task.content }}</td>
+                <td>{{ task.date_created }}</td>
+                <td>
+
+                </td>
+                <td>{{ task.author }}</td>
+                <td>{{ task.author.mobile_number }}</td>
+                <td>{{ task.author.address }}</td>
+            </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    <div class="form">
+        <form action="/" method="POST">{% csrf_token %}
+           <input type="text" name="content" id="content">
+            <input  size ="85" type="submit" value="Add Description" class="btn btn-primary" >
+        </form>
+    </div>
+
+    <textarea>Demo Text editor. Nikhil will integrate it with backend</textarea>
+    </div>
+
+
+
+
+  {% block javascript %}
+  <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <!-- 3rd party JavaScript -->
+
+  <!-- Project JS -->
+  <script src="{% static 'js/base.js' %}"></script>
+  {% endblock javascript %}
+
+</body>
+</html>

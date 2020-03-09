@@ -1,0 +1,60 @@
+URL GET /
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:09:38.500583
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /accounts/login/
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:09:38.510417
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL POST /accounts/login/
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:08.660491
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /
+USERNAME : radhesh
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:08.857441
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /accounts/logout/
+USERNAME : radhesh
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:17.002372
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL POST /accounts/logout/
+USERNAME : radhesh
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:18.138744
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:18.171454
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /accounts/login/
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:18.220592
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /about/
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:10:19.054485
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
+URL GET /accounts/signup/
+USERNAME : 
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-02-22 02:11:02.558063
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+
