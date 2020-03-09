@@ -1,6 +1,8 @@
 from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import include, url
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -8,6 +10,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('blog.urls')),
    	path('', include('pages.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
 
 ]
 

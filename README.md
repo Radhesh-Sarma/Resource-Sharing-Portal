@@ -17,6 +17,7 @@ $ pip3 install captcha
 $ pip3 install django-simple-captcha
 $ pip3 install django-recaptcha
 $ pip3 install django-ipware
+$ pip3 install django-tinymce
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 ```
