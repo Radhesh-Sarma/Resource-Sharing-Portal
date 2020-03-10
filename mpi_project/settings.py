@@ -38,14 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-
+    'django_user_agents',
     # Third-party
     'allauth',
     'allauth.account',
     'crispy_forms',
     'debug_toolbar',
     'blog.apps.BlogConfig',
-    'django_user_agents',
     # Local
     'users',
     'pages',
@@ -165,7 +164,7 @@ AUTHENTICATION_BACKENDS = (
     "allauth.account.auth_backends.AuthenticationBackend",
 )
 
-SITE_ID = 2
+SITE_ID = 1
 
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = True
