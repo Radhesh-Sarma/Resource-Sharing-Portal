@@ -22,7 +22,7 @@ def task_list(request):
     print(request.user_agent.os)
     if request.method == "POST":
         me = get_user_model().objects.get(username=request.user.get_username())
-        form = Task(author=me, content=request.POST['content'])
+        form = Task(author=me, content=request.POST.get('content'))
         form.save()
         return redirect('task_list')
     else:

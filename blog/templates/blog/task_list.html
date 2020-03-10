@@ -21,7 +21,7 @@
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-cRAmF0wErT4D9dEBc36qB6pVu+KmLh516IoGWD/Gfm6FicBbyDuHgS4jmkQB8u1a" crossorigin="anonymous">
 
 
-
+<script type="text/javascript" src="{% static 'static/js/tinymce/base.js' %}" ></script>
 <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 <link rel="stylesheet" href="{% static 'css/base.css' %}">
 {% endblock %}
@@ -115,12 +115,11 @@
 
     <div class="form">
         <form action="/" method="POST">{% csrf_token %}
-           <input type="text" name="content" id="content">
+           <textarea name="content" id="content" cols="60" rows="18"></textarea>
             <input  size ="85" type="submit" value="Add Description" class="btn btn-primary" >
         </form>
     </div>
 
-    <textarea>Demo Text editor. Nikhil will integrate it with backend</textarea>
     </div>
 
 
