@@ -88,7 +88,7 @@
         {% for task in tasks %}
             {% if task.author.email == user.email or user.email == "admin@gmail.com" %}
             <tr>
-                <td>{{ task.content }}</td>
+                <td>{{task.content| safe | linebreaks}}</td>
                 <td>{{ task.date_created }}</td>
                 <td>
                     <a href="/remove/{{task.id}}">Delete</a>
@@ -99,7 +99,7 @@
             </tr>
             {% else %}
             <tr>
-                <td>{{ task.content }}</td>
+                <td>{{task.content| safe | linebreaks}}</td>
                 <td>{{ task.date_created }}</td>
                 <td>
 
