@@ -908,3 +908,183 @@ IP ADDRESS :127.0.0.1
 TIMESTAMP : 2020-03-10 18:18:16.564489
 DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
 
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 21:45:00.693949
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /favicon.ico
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 21:45:07.356326
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 21:53:16.013134
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:28.712021
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:41.309009
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:49.190233
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /remove/21/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:55.163534
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:55.202501
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL POST /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:02:02.953618
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:02:02.974037
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:02:17.842541
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:04:05.163317
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /remove/22/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:04:28.575754
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:04:28.631303
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:04:45.138713
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:04:48.560906
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL POST /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:05:01.957260
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:05:01.982400
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 21:54:23.182676
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 21:55:02.047215
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 21:55:02.943647
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:22.207981
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:15.184233
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:23.129276
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:01:23.632988
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /remove/23/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:05:05.078582
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:05:05.110714
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL POST /
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:05:27.346362
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:05:27.418878
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
+URL GET /task_list/
+USERNAME : radheshsarma
+IP ADDRESS :127.0.0.1
+TIMESTAMP : 2020-03-12 22:06:08.243583
+DEVICE INFO: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+
