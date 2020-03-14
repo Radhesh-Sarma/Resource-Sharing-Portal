@@ -28,7 +28,6 @@ colorama==0.4.3
 configparser==4.0.2
 crayons==0.3.0
 cryptography==2.6.1
-cupshelpers==1.0
 cycler==0.10.0
 dbus-python==1.2.12
 decorator==4.4.2
