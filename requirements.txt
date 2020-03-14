@@ -87,7 +87,6 @@ lazr.restfulclient==0.14.2
 lazr.uri==1.0.3
 lazy-object-proxy==1.4.3
 lockfile==0.12.2
-louis==3.10.0
 macaroonbakery==1.2.3
 Mako==1.0.7
 Markdown==3.2.1
