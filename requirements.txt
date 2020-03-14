@@ -25,7 +25,6 @@ cleo==0.7.6
 Click==7.0
 clikit==0.4.1
 colorama==0.4.3
-command-not-found==0.3
 configparser==4.0.2
 crayons==0.3.0
 cryptography==2.6.1
