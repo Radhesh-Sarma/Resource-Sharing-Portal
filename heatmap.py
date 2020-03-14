@@ -8,7 +8,6 @@ heatmap = folium.Map(location=[17.5427787, 78.5719924],control_scale=True, zoom_
 
 dataset = pd.read_csv('dataset.csv')
 dataset.head()
-print(dataset.columns)
 
 
 

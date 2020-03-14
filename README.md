@@ -8,15 +8,7 @@ Web portal to help people connect with each other and share resources and goods.
 2. Set up the initial migration build the database.
 
 ```
-$ pip3 install django-allauth
-$ pip3 install django-crispy-forms
-$ pip3 install django-debug-toolbar
-$ pip3 install pyyaml ua-parser user-agents
-$ pip3 install django-user-agents
-$ pip3 install captcha
-$ pip3 install django-simple-captcha
-$ pip3 install django-recaptcha
-$ pip3 install django-ipware
+$ pip3 install -r requirements.txt
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 ```

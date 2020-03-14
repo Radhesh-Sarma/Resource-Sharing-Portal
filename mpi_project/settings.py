@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'blog.apps.BlogConfig',
     'django_user_agents',
+    'tinymce',
     # Local
     'users',
     'pages',
@@ -151,8 +152,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'put email'
-EMAIL_HOST_PASSWORD = 'put password'
+EMAIL_HOST_USER = 'bookmycab123123@gmail.com'
+EMAIL_HOST_PASSWORD = 'jaibajrangbali'
 
 
 # Django-Allauth Config

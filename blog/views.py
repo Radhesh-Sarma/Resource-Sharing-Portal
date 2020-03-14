@@ -7,6 +7,9 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user_model
 from ipware import get_client_ip
 import datetime
+from django.core.mail import send_mail
+from mpi_project.settings import EMAIL_HOST_USER
+from users.models import CustomUser
 # Create your views here.
 
 
@@ -18,11 +21,16 @@ def home(request):
 
 @login_required
 def task_list(request):
-    print(request.user_agent.browser)
-    print(request.user_agent.os)
     if request.method == "POST":
         me = get_user_model().objects.get(username=request.user.get_username())
-        form = Task(author=me, content=request.POST['content'])
+        currentDT = datetime.datetime.now()
+        usercontent = request.POST.get('content')
+        emailcontent = request.user.get_username() + str(" posted ") + str(usercontent) + str(" on ") + str(currentDT)
+       # print(emailcontent)
+        recipient_list = CustomUser.objects.values_list('email',flat=True)
+        #print(recipient_list)
+        #send_mail('Post Notification',emailcontent,EMAIL_HOST_USER,['radheshsarma29@gmail.com'])
+        form = Task(author=me, content=request.POST.get('content'))
         form.save()
         return redirect('task_list')
     else:
