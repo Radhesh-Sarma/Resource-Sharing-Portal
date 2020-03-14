@@ -145,10 +145,6 @@ PyQt5==5.12.3
 pyRFC3339==1.1
 pyrsistent==0.14.11
 PySocks==1.6.8
-python-apt==1.9.0+ubuntu1.3
-python-dateutil==2.7.3
-python-debian==0.1.36
-python3-openid==3.1.0
 pytz==2017.3
 pyxdg==0.25
 PyYAML==5.1.2
