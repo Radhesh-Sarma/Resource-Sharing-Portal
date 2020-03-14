@@ -133,7 +133,6 @@ pycparser==2.19
 pycrypto==2.6.1
 pycups==1.9.73
 Pygments==2.6.1
-PyGObject==3.34.0
 PyJWT==1.7.0
 pylev==1.3.0
 pylint==2.4.4
