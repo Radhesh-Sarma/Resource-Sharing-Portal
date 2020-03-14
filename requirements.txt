@@ -64,7 +64,6 @@ geopy==1.21.0
 google-auth==1.11.3
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
-gpg==1.12.0
 grpcio==1.27.2
 h5py==2.10.0
 html5lib==1.0.1
