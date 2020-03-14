@@ -82,7 +82,6 @@ keyring==20.0.1
 keyrings.alt==3.1.1
 kiwisolver==1.1.0
 l18n==2018.5
-language-selector==0.1
 launchpadlib==1.10.7
 lazr.restfulclient==0.14.2
 lazr.uri==1.0.3
