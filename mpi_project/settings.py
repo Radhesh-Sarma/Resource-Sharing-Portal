@@ -144,7 +144,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Enabled for django-debug-toolbar to work
 # https://docs.djangoproject.com/en/2.2/ref/settings/#internal-ips
-INTERNAL_IPS = ['127.0.0.1']
+INTERNAL_IPS = ['*']
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
