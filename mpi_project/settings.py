@@ -25,7 +25,7 @@ SECRET_KEY = '43)%4yx)aa@a=+_c(fn&kf3g29xax+=+a&key9i=!98zyim=8j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','172.16.38.60','172.16.244.115']
+ALLOWED_HOSTS = ['*']
 #Add your LAN ip here to host it on campus
 
 # Application definition
@@ -144,7 +144,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Enabled for django-debug-toolbar to work
 # https://docs.djangoproject.com/en/2.2/ref/settings/#internal-ips
-INTERNAL_IPS = ['*']
+INTERNAL_IPS = ['127.0.0.1']
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
