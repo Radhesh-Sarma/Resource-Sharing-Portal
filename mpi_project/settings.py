@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '43)%4yx)aa@a=+_c(fn&kf3g29xax+=+a&key9i=!98zyim=8j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 #Add your LAN ip here to host it on campus
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'debug_toolbar',
     'blog.apps.BlogConfig',
-    'django_user_agents',
     'tinymce',
     # Local
     'users',
@@ -93,6 +92,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                'OPTIONS': {
+            'timeout': 20,  # in seconds
+            # see also
+            # https://docs.python.org/3.7/library/sqlite3.html#sqlite3.connect
+        }
     }
 }
 
