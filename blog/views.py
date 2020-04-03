@@ -23,11 +23,11 @@ def home(request):
 def task_list(request):
     if request.method == "POST":
         me = get_user_model().objects.get(username=request.user.get_username())
-        currentDT = datetime.datetime.now()
-        usercontent = request.POST.get('content')
-        emailcontent = request.user.get_username() + str(" posted ") + str(usercontent) + str(" on ") + str(currentDT)
+        #currentDT = datetime.datetime.now()
+        #usercontent = request.POST.get('content')
+        #emailcontent = request.user.get_username() + str(" posted ") + str(usercontent) + str(" on ") + str(currentDT)
        # print(emailcontent)
-        recipient_list = CustomUser.objects.values_list('email',flat=True)
+        #recipient_list = CustomUser.objects.values_list('email',flat=True)
         #print(recipient_list)
         #send_mail('Post Notification',emailcontent,EMAIL_HOST_USER,['radheshsarma29@gmail.com'])
         form = Task(author=me, content=request.POST.get('content'))
