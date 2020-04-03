@@ -43,11 +43,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'crispy_forms',
-<<<<<<< HEAD
     'debug_toolbar',
-=======
-   # 'debug_toolbar',
->>>>>>> nikhil_db
     'blog.apps.BlogConfig',
     'tinymce',
     # Local
@@ -60,11 +56,6 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-<<<<<<< HEAD
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
-=======
-    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
->>>>>>> nikhil_db
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -81,11 +72,6 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-<<<<<<< HEAD
-                'django.template.context_processors.debug',
-=======
-               # 'django.template.context_processors.debug',
->>>>>>> nikhil_db
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -102,22 +88,13 @@ WSGI_APPLICATION = 'mpi_project.wsgi.application'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-                'OPTIONS': {
-            'timeout': 30,  # in seconds
-            # see also
-            # https://docs.python.org/3.7/library/sqlite3.html#sqlite3.connect
-        }
-=======
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'myproject',
         'USER': 'myprojectuser',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '',
->>>>>>> nikhil_db
+
     }
 }
 
