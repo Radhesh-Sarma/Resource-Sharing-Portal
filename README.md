@@ -8,6 +8,7 @@ Web portal to help people connect with each other and share resources and goods.
 2. Set up the initial migration build the database.
 
 ```
+<<<<<<< HEAD
 $ pip3 install django-allauth
 $ pip3 install django-crispy-forms
 $ pip3 install django-debug-toolbar
@@ -19,6 +20,21 @@ $ pip3 install django-recaptcha
 $ pip3 install django-ipware
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
+=======
+$ sudo apt install postgresql postgresql-contrib
+$ pip install django psycopg2
+$ pip install django-allauth
+$ pip install django-crispy-forms
+$ pip install django-debug-toolbar
+$ pip install pyyaml ua-parser user-agents
+$ pip install django-user-agents
+$ pip install captcha
+$ pip install django-simple-captcha
+$ pip install django-recaptcha
+$ pip install django-ipware
+$ python manage.py makemigrations
+$ python manage.py migrate
+>>>>>>> nikhil_db
 ```
 
 3.  Create a superuser:
