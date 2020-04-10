@@ -2,6 +2,7 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
+from schema_graph.views import Schema
 urlpatterns = [
     path('admin/doc/', include('django.contrib.admindocs.urls')),
     path('admin/', admin.site.urls),
@@ -11,6 +12,7 @@ urlpatterns = [
     path('', include('users.urls')),
    	path('', include('pages.urls')),
     url(r'^tinymce/', include('tinymce.urls')),
+    path("schema/", Schema.as_view()),
 
 ]
 

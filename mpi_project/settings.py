@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.admindocs',
     'rest_framework',
+    'schema_graph',
 
     # Third-party
     'allauth',
