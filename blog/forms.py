@@ -5,4 +5,4 @@ class PostForm(forms.ModelForm):
 	captcha = ReCaptchaField()
 	class Meta:
 		model = Task
-		fields = ('content','resource_type')
+		fields = ('content',)

@@ -12,6 +12,18 @@ from mpi_project.settings import EMAIL_HOST_USER
 from users.models import CustomUser
 # Create your views here.
 
+from rest_framework import generics
+from .serializers import BlogSerializer
+
+class SnippetList(generics.ListCreateAPIView):
+    queryset = Task.objects.all()
+    serializer_class = BlogSerializer
+
+
+class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Task.objects.all()
+    serializer_class = BlogSerializer
+
 
 def home(request):
     print(request.user_agent.browser)
@@ -46,4 +58,5 @@ def remove(request,item_id):
 	form.delete()
 
 	return redirect('task_list')
+
 

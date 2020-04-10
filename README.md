@@ -8,6 +8,7 @@ Web portal to help people connect with each other and share resources and goods.
 2. Set up the initial migration build the database.
 
 ```
+$ pip install djangorestframework
 $ pip install django-allauth
 $ pip install django-tinymce
 $ pip install django-crispy-forms
