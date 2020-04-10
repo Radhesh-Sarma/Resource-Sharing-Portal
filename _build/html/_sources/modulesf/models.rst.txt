@@ -1,0 +1,6 @@
+Models
+=======
+
+.. automodule:: mpi_project.models
+   :members:
+   :undoc-members:

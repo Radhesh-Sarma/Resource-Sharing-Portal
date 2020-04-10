@@ -1,0 +1,66 @@
+Forms
+*****
+
+class users.forms.CustomUserChangeForm(*args, **kwargs)
+
+   class Meta
+
+      fields = ('email', 'username', 'mobile_number', 'address')
+
+      model
+
+         alias of "users.models.CustomUser"
+
+   base_fields = {'address': <django.forms.fields.CharField object>, 'captcha': <captcha.fields.ReCaptchaField object>, 'email': <django.forms.fields.EmailField object>, 'mobile_number': <django.forms.fields.CharField object>, 'password': <django.contrib.auth.forms.ReadOnlyPasswordHashField object>, 'username': <django.forms.fields.CharField object>}
+
+   declared_fields = {'captcha': <captcha.fields.ReCaptchaField object>, 'password': <django.contrib.auth.forms.ReadOnlyPasswordHashField object>}
+
+   property media
+
+class users.forms.CustomUserCreationForm(*args, **kwargs)
+
+   class Meta
+
+      fields = ('email', 'username', 'mobile_number', 'address')
+
+      model
+
+         alias of "users.models.CustomUser"
+
+   base_fields = {'address': <django.forms.fields.CharField object>, 'captcha': <captcha.fields.ReCaptchaField object>, 'email': <django.forms.fields.EmailField object>, 'mobile_number': <django.forms.fields.CharField object>, 'password1': <django.forms.fields.CharField object>, 'password2': <django.forms.fields.CharField object>, 'username': <django.contrib.auth.forms.UsernameField object>}
+
+   declared_fields = {'captcha': <captcha.fields.ReCaptchaField object>, 'password1': <django.forms.fields.CharField object>, 'password2': <django.forms.fields.CharField object>}
+
+   property media
+
+class users.forms.PostForm(data=None, files=None, auto_id='id_%s', prefix=None, initial=None, error_class=<class 'django.forms.utils.ErrorList'>, label_suffix=None, empty_permitted=False, instance=None, use_required_attribute=None, renderer=None)
+
+   class Meta
+
+      fields = ('name', 'email', 'content')
+
+      model
+
+         alias of "users.models.userdata"
+
+   base_fields = {'content': <django.forms.fields.CharField object>, 'email': <django.forms.fields.EmailField object>, 'name': <django.forms.fields.CharField object>}
+
+   declared_fields = {}
+
+   property media
+
+class blog.forms.PostForm(data=None, files=None, auto_id='id_%s', prefix=None, initial=None, error_class=<class 'django.forms.utils.ErrorList'>, label_suffix=None, empty_permitted=False, instance=None, use_required_attribute=None, renderer=None)
+
+   class Meta
+
+      fields = ('content', 'resource_type')
+
+      model
+
+         alias of "blog.models.Task"
+
+   base_fields = {'captcha': <captcha.fields.ReCaptchaField object>, 'content': <django.forms.fields.CharField object>, 'resource_type': <django.forms.fields.TypedChoiceField object>}
+
+   declared_fields = {'captcha': <captcha.fields.ReCaptchaField object>}
+
+   property media

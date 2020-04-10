@@ -1,0 +1,6 @@
+Views
+======
+
+.. automodule:: mpi_project.views
+   :members:
+   :undoc-members:

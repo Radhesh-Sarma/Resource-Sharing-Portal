@@ -1,0 +1,16 @@
+Views
+*****
+
+blog.views.home(request)
+
+blog.views.remove(request, item_id)
+
+blog.views.task_list(request)
+
+class pages.views.AboutPageView(**kwargs)
+
+   template_name = 'pages/about.html'
+
+class pages.views.HomePageView(**kwargs)
+
+   template_name = 'pages/home.html'

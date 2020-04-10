@@ -1,0 +1,366 @@
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="AboutPageView (class in pages.views)">
+    <param name="Local" value="modules/views.html#pages.views.AboutPageView">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="address (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.address">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="author (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.author">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="author_id (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.author_id">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="base_fields (blog.forms.PostForm attribute)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm.base_fields">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserChangeForm attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.base_fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserCreationForm attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm.base_fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.PostForm attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm.base_fields">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.forms">
+    <param name="See Also" value="blog.forms">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/forms.html#module-blog.forms">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.models">
+    <param name="See Also" value="blog.models">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/models.html#module-blog.models">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.views">
+    <param name="See Also" value="blog.views">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/views.html#module-blog.views">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="content (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.content">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.models.userdata attribute)">
+    <param name="Local" value="modules/models.html#users.models.userdata.content">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUser (class in users.models)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUser.DoesNotExist">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.DoesNotExist">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUser.MultipleObjectsReturned">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.MultipleObjectsReturned">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUserChangeForm (class in users.forms)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUserChangeForm.Meta (class in users.forms)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.Meta">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUserCreationForm (class in users.forms)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="CustomUserCreationForm.Meta (class in users.forms)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm.Meta">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="date_created (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.date_created">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="declared_fields (blog.forms.PostForm attribute)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm.declared_fields">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserChangeForm attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.declared_fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserCreationForm attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm.declared_fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.PostForm attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm.declared_fields">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="email (users.models.userdata attribute)">
+    <param name="Local" value="modules/models.html#users.models.userdata.email">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="emailaddress_set (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.emailaddress_set">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="fields (blog.forms.PostForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm.Meta.fields">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserChangeForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.Meta.fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserCreationForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm.Meta.fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.PostForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm.Meta.fields">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="get_next_by_date_created() (blog.models.Task method)">
+    <param name="Local" value="modules/models.html#blog.models.Task.get_next_by_date_created">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="get_next_by_date_joined() (users.models.CustomUser method)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.get_next_by_date_joined">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="get_previous_by_date_created() (blog.models.Task method)">
+    <param name="Local" value="modules/models.html#blog.models.Task.get_previous_by_date_created">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="get_previous_by_date_joined() (users.models.CustomUser method)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.get_previous_by_date_joined">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="get_resource_type_display() (blog.models.Task method)">
+    <param name="Local" value="modules/models.html#blog.models.Task.get_resource_type_display">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="groups (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.groups">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="home() (in module blog.views)">
+    <param name="Local" value="modules/views.html#blog.views.home">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="HomePageView (class in pages.views)">
+    <param name="Local" value="modules/views.html#pages.views.HomePageView">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="id (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.id">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.id">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.models.userdata attribute)">
+    <param name="Local" value="modules/models.html#users.models.userdata.id">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="logentry_set (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.logentry_set">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="media() (blog.forms.PostForm property)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm.media">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserChangeForm property)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.media">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserCreationForm property)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm.media">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.PostForm property)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm.media">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="mobile_number (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.mobile_number">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="model (blog.forms.PostForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm.Meta.model">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserChangeForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.Meta.model">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.CustomUserCreationForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.CustomUserCreationForm.Meta.model">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.forms.PostForm.Meta attribute)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm.Meta.model">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="See Also" value="module">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.forms">
+    <param name="Local" value="modules/forms.html#module-blog.forms">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.models">
+    <param name="Local" value="modules/models.html#module-blog.models">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.views">
+    <param name="Local" value="modules/views.html#module-blog.views">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="pages.views">
+    <param name="Local" value="modules/views.html#module-pages.views">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.forms">
+    <param name="Local" value="modules/forms.html#module-users.forms">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.models">
+    <param name="Local" value="modules/models.html#module-users.models">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.views">
+    <param name="Local" value="modules/views.html#module-users.views">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="name (users.models.userdata attribute)">
+    <param name="Local" value="modules/models.html#users.models.userdata.name">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="objects (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.objects">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.models.userdata attribute)">
+    <param name="Local" value="modules/models.html#users.models.userdata.objects">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="pages.views">
+    <param name="See Also" value="pages.views">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/views.html#module-pages.views">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="PostForm (class in blog.forms)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(class in users.forms)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="PostForm.Meta (class in blog.forms)">
+    <param name="Local" value="modules/forms.html#blog.forms.PostForm.Meta">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(class in users.forms)">
+    <param name="Local" value="modules/forms.html#users.forms.PostForm.Meta">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="remove() (in module blog.views)">
+    <param name="Local" value="modules/views.html#blog.views.remove">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="resource_type (blog.models.Task attribute)">
+    <param name="Local" value="modules/models.html#blog.models.Task.resource_type">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="Task (class in blog.models)">
+    <param name="Local" value="modules/models.html#blog.models.Task">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="Task.DoesNotExist">
+    <param name="Local" value="modules/models.html#blog.models.Task.DoesNotExist">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="Task.MultipleObjectsReturned">
+    <param name="Local" value="modules/models.html#blog.models.Task.MultipleObjectsReturned">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="task_list() (in module blog.views)">
+    <param name="Local" value="modules/views.html#blog.views.task_list">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="task_set (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.task_set">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="template_name (pages.views.AboutPageView attribute)">
+    <param name="Local" value="modules/views.html#pages.views.AboutPageView.template_name">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(pages.views.HomePageView attribute)">
+    <param name="Local" value="modules/views.html#pages.views.HomePageView.template_name">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="user_permissions (users.models.CustomUser attribute)">
+    <param name="Local" value="modules/models.html#users.models.CustomUser.user_permissions">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="userdata (class in users.models)">
+    <param name="Local" value="modules/models.html#users.models.userdata">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="userdata.DoesNotExist">
+    <param name="Local" value="modules/models.html#users.models.userdata.DoesNotExist">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="userdata.MultipleObjectsReturned">
+    <param name="Local" value="modules/models.html#users.models.userdata.MultipleObjectsReturned">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.forms">
+    <param name="See Also" value="users.forms">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/forms.html#module-users.forms">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.models">
+    <param name="See Also" value="users.models">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/models.html#module-users.models">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.views">
+    <param name="See Also" value="users.views">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/views.html#module-users.views">
+</OBJECT>
+</UL></UL>

@@ -1,0 +1,199 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=cp1252" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="prev" title="Views" href="views.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-users.forms">
+<span id="forms"></span><h1>Forms</h1>
+<dl class="py class">
+<dt id="users.forms.CustomUserChangeForm">
+<em class="property">class </em><code class="descclassname">users.forms.</code><code class="descname">CustomUserChangeForm</code><span class="sig-paren">(</span><em><span class="o">*</span><span class="n">args</span></em>, <em><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span></dt>
+<dd><dl class="py class">
+<dt id="users.forms.CustomUserChangeForm.Meta">
+<em class="property">class </em><code class="descname">Meta</code></dt>
+<dd><dl class="py attribute">
+<dt id="users.forms.CustomUserChangeForm.Meta.fields">
+<code class="descname">fields</code><em class="property"> = ('email', 'username', 'mobile_number', 'address')</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.CustomUserChangeForm.Meta.model">
+<code class="descname">model</code></dt>
+<dd><p>alias of <a class="reference internal" href="models.html#users.models.CustomUser" title="users.models.CustomUser"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.models.CustomUser</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.CustomUserChangeForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'address': &lt;django.forms.fields.CharField object&gt;, 'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'mobile_number': &lt;django.forms.fields.CharField object&gt;, 'password': &lt;django.contrib.auth.forms.ReadOnlyPasswordHashField object&gt;, 'username': &lt;django.forms.fields.CharField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.CustomUserChangeForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'password': &lt;django.contrib.auth.forms.ReadOnlyPasswordHashField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="users.forms.CustomUserChangeForm.media">
+<em class="property">property </em><code class="descname">media</code></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="users.forms.CustomUserCreationForm">
+<em class="property">class </em><code class="descclassname">users.forms.</code><code class="descname">CustomUserCreationForm</code><span class="sig-paren">(</span><em><span class="o">*</span><span class="n">args</span></em>, <em><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span></dt>
+<dd><dl class="py class">
+<dt id="users.forms.CustomUserCreationForm.Meta">
+<em class="property">class </em><code class="descname">Meta</code></dt>
+<dd><dl class="py attribute">
+<dt id="users.forms.CustomUserCreationForm.Meta.fields">
+<code class="descname">fields</code><em class="property"> = ('email', 'username', 'mobile_number', 'address')</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.CustomUserCreationForm.Meta.model">
+<code class="descname">model</code></dt>
+<dd><p>alias of <a class="reference internal" href="models.html#users.models.CustomUser" title="users.models.CustomUser"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.models.CustomUser</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.CustomUserCreationForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'address': &lt;django.forms.fields.CharField object&gt;, 'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'mobile_number': &lt;django.forms.fields.CharField object&gt;, 'password1': &lt;django.forms.fields.CharField object&gt;, 'password2': &lt;django.forms.fields.CharField object&gt;, 'username': &lt;django.contrib.auth.forms.UsernameField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.CustomUserCreationForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'password1': &lt;django.forms.fields.CharField object&gt;, 'password2': &lt;django.forms.fields.CharField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="users.forms.CustomUserCreationForm.media">
+<em class="property">property </em><code class="descname">media</code></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="users.forms.PostForm">
+<em class="property">class </em><code class="descclassname">users.forms.</code><code class="descname">PostForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>instance=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span></dt>
+<dd><dl class="py class">
+<dt id="users.forms.PostForm.Meta">
+<em class="property">class </em><code class="descname">Meta</code></dt>
+<dd><dl class="py attribute">
+<dt id="users.forms.PostForm.Meta.fields">
+<code class="descname">fields</code><em class="property"> = ('name', 'email', 'content')</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.PostForm.Meta.model">
+<code class="descname">model</code></dt>
+<dd><p>alias of <a class="reference internal" href="models.html#users.models.userdata" title="users.models.userdata"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.models.userdata</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.PostForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'content': &lt;django.forms.fields.CharField object&gt;, 'email': &lt;django.forms.fields.EmailField object&gt;, 'name': &lt;django.forms.fields.CharField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.forms.PostForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {}</em></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="users.forms.PostForm.media">
+<em class="property">property </em><code class="descname">media</code></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-blog.forms"></span><dl class="py class">
+<dt id="blog.forms.PostForm">
+<em class="property">class </em><code class="descclassname">blog.forms.</code><code class="descname">PostForm</code><span class="sig-paren">(</span><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em>label_suffix=None</em>, <em>empty_permitted=False</em>, <em>instance=None</em>, <em>use_required_attribute=None</em>, <em>renderer=None</em><span class="sig-paren">)</span></dt>
+<dd><dl class="py class">
+<dt id="blog.forms.PostForm.Meta">
+<em class="property">class </em><code class="descname">Meta</code></dt>
+<dd><dl class="py attribute">
+<dt id="blog.forms.PostForm.Meta.fields">
+<code class="descname">fields</code><em class="property"> = ('content', 'resource_type')</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.forms.PostForm.Meta.model">
+<code class="descname">model</code></dt>
+<dd><p>alias of <a class="reference internal" href="models.html#blog.models.Task" title="blog.models.Task"><code class="xref py py-class docutils literal notranslate"><span class="pre">blog.models.Task</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.forms.PostForm.base_fields">
+<code class="descname">base_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'content': &lt;django.forms.fields.CharField object&gt;, 'resource_type': &lt;django.forms.fields.TypedChoiceField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.forms.PostForm.declared_fields">
+<code class="descname">declared_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;}</em></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="blog.forms.PostForm.media">
+<em class="property">property </em><code class="descname">media</code></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Mohan Krishna, Abhirath Singh.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/modules/forms.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

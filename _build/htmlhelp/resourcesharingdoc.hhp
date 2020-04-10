@@ -1,0 +1,33 @@
+[OPTIONS]
+Binary TOC=No
+Binary Index=No
+Compiled file=resourcesharingdoc.chm
+Contents file=resourcesharingdoc.hhc
+Default Window=resourcesharingdoc
+Default topic=index.html
+Display compile progress=No
+Full text search stop list file=resourcesharingdoc.stp
+Full-text search=Yes
+Index file=resourcesharingdoc.hhk
+Language=0x409
+Title=Resource Sharing Beta 1.0 documentation
+
+[WINDOWS]
+resourcesharingdoc="Resource Sharing Beta 1.0 documentation","resourcesharingdoc.hhc","resourcesharingdoc.hhk","index.html","index.html",,,,,0x63520,220,0x10384e,[0,0,1024,768],,,,,,,0
+
+[FILES]
+genindex.html
+index.html
+modules.html
+py-modindex.html
+_static\alabaster.css
+_static\basic.css
+_static\custom.css
+_static\file.png
+_static\minus.png
+_static\plus.png
+_static\pygments.css
+modules\all-about-us.html
+modules\forms.html
+modules\models.html
+modules\views.html

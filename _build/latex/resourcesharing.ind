@@ -1,0 +1,155 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter A
+  \item \spxentry{AboutPageView}\spxextra{class in pages.views}, \hyperpage{5}
+  \item \spxentry{address}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
+  \item \spxentry{author}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+  \item \spxentry{author\_id}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+
+  \indexspace
+  \bigletter B
+  \item \spxentry{base\_fields}\spxextra{blog.forms.PostForm attribute}, \hyperpage{7}
+  \item \spxentry{base\_fields}\spxextra{users.forms.CustomUserChangeForm attribute}, \hyperpage{6}
+  \item \spxentry{base\_fields}\spxextra{users.forms.CustomUserCreationForm attribute}, 
+		\hyperpage{6}
+  \item \spxentry{base\_fields}\spxextra{users.forms.PostForm attribute}, \hyperpage{6}
+  \item \spxentry{blog.forms}
+    \subitem \spxentry{module}, \hyperpage{7}
+  \item \spxentry{blog.models}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{blog.views}
+    \subitem \spxentry{module}, \hyperpage{5}
+
+  \indexspace
+  \bigletter C
+  \item \spxentry{content}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+  \item \spxentry{content}\spxextra{users.models.userdata attribute}, \hyperpage{4}
+  \item \spxentry{CustomUser}\spxextra{class in users.models}, \hyperpage{2}
+  \item \spxentry{CustomUser.DoesNotExist}, \hyperpage{3}
+  \item \spxentry{CustomUser.MultipleObjectsReturned}, \hyperpage{3}
+  \item \spxentry{CustomUserChangeForm}\spxextra{class in users.forms}, \hyperpage{6}
+  \item \spxentry{CustomUserChangeForm.Meta}\spxextra{class in users.forms}, \hyperpage{6}
+  \item \spxentry{CustomUserCreationForm}\spxextra{class in users.forms}, \hyperpage{6}
+  \item \spxentry{CustomUserCreationForm.Meta}\spxextra{class in users.forms}, \hyperpage{6}
+
+  \indexspace
+  \bigletter D
+  \item \spxentry{date\_created}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+  \item \spxentry{declared\_fields}\spxextra{blog.forms.PostForm attribute}, \hyperpage{7}
+  \item \spxentry{declared\_fields}\spxextra{users.forms.CustomUserChangeForm attribute}, 
+		\hyperpage{6}
+  \item \spxentry{declared\_fields}\spxextra{users.forms.CustomUserCreationForm attribute}, 
+		\hyperpage{6}
+  \item \spxentry{declared\_fields}\spxextra{users.forms.PostForm attribute}, \hyperpage{6}
+
+  \indexspace
+  \bigletter E
+  \item \spxentry{email}\spxextra{users.models.userdata attribute}, \hyperpage{4}
+  \item \spxentry{emailaddress\_set}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
+
+  \indexspace
+  \bigletter F
+  \item \spxentry{fields}\spxextra{blog.forms.PostForm.Meta attribute}, \hyperpage{7}
+  \item \spxentry{fields}\spxextra{users.forms.CustomUserChangeForm.Meta attribute}, \hyperpage{6}
+  \item \spxentry{fields}\spxextra{users.forms.CustomUserCreationForm.Meta attribute}, 
+		\hyperpage{6}
+  \item \spxentry{fields}\spxextra{users.forms.PostForm.Meta attribute}, \hyperpage{6}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{get\_next\_by\_date\_created()}\spxextra{blog.models.Task method}, \hyperpage{2}
+  \item \spxentry{get\_next\_by\_date\_joined()}\spxextra{users.models.CustomUser method}, 
+		\hyperpage{3}
+  \item \spxentry{get\_previous\_by\_date\_created()}\spxextra{blog.models.Task method}, 
+		\hyperpage{2}
+  \item \spxentry{get\_previous\_by\_date\_joined()}\spxextra{users.models.CustomUser method}, 
+		\hyperpage{3}
+  \item \spxentry{get\_resource\_type\_display()}\spxextra{blog.models.Task method}, \hyperpage{2}
+  \item \spxentry{groups}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
+
+  \indexspace
+  \bigletter H
+  \item \spxentry{home()}\spxextra{in module blog.views}, \hyperpage{5}
+  \item \spxentry{HomePageView}\spxextra{class in pages.views}, \hyperpage{5}
+
+  \indexspace
+  \bigletter I
+  \item \spxentry{id}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+  \item \spxentry{id}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
+  \item \spxentry{id}\spxextra{users.models.userdata attribute}, \hyperpage{4}
+
+  \indexspace
+  \bigletter L
+  \item \spxentry{logentry\_set}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{media()}\spxextra{blog.forms.PostForm property}, \hyperpage{7}
+  \item \spxentry{media()}\spxextra{users.forms.CustomUserChangeForm property}, \hyperpage{6}
+  \item \spxentry{media()}\spxextra{users.forms.CustomUserCreationForm property}, \hyperpage{6}
+  \item \spxentry{media()}\spxextra{users.forms.PostForm property}, \hyperpage{6}
+  \item \spxentry{mobile\_number}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
+  \item \spxentry{model}\spxextra{blog.forms.PostForm.Meta attribute}, \hyperpage{7}
+  \item \spxentry{model}\spxextra{users.forms.CustomUserChangeForm.Meta attribute}, \hyperpage{6}
+  \item \spxentry{model}\spxextra{users.forms.CustomUserCreationForm.Meta attribute}, \hyperpage{6}
+  \item \spxentry{model}\spxextra{users.forms.PostForm.Meta attribute}, \hyperpage{6}
+  \item \spxentry{module}
+    \subitem \spxentry{blog.forms}, \hyperpage{7}
+    \subitem \spxentry{blog.models}, \hyperpage{2}
+    \subitem \spxentry{blog.views}, \hyperpage{5}
+    \subitem \spxentry{pages.views}, \hyperpage{5}
+    \subitem \spxentry{users.forms}, \hyperpage{6}
+    \subitem \spxentry{users.models}, \hyperpage{2}
+    \subitem \spxentry{users.views}, \hyperpage{5}
+
+  \indexspace
+  \bigletter N
+  \item \spxentry{name}\spxextra{users.models.userdata attribute}, \hyperpage{4}
+
+  \indexspace
+  \bigletter O
+  \item \spxentry{objects}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+  \item \spxentry{objects}\spxextra{users.models.userdata attribute}, \hyperpage{4}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{pages.views}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{PostForm}\spxextra{class in blog.forms}, \hyperpage{7}
+  \item \spxentry{PostForm}\spxextra{class in users.forms}, \hyperpage{6}
+  \item \spxentry{PostForm.Meta}\spxextra{class in blog.forms}, \hyperpage{7}
+  \item \spxentry{PostForm.Meta}\spxextra{class in users.forms}, \hyperpage{6}
+
+  \indexspace
+  \bigletter R
+  \item \spxentry{remove()}\spxextra{in module blog.views}, \hyperpage{5}
+  \item \spxentry{resource\_type}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+
+  \indexspace
+  \bigletter T
+  \item \spxentry{Task}\spxextra{class in blog.models}, \hyperpage{2}
+  \item \spxentry{Task.DoesNotExist}, \hyperpage{2}
+  \item \spxentry{Task.MultipleObjectsReturned}, \hyperpage{2}
+  \item \spxentry{task\_list()}\spxextra{in module blog.views}, \hyperpage{5}
+  \item \spxentry{task\_set}\spxextra{users.models.CustomUser attribute}, \hyperpage{4}
+  \item \spxentry{template\_name}\spxextra{pages.views.AboutPageView attribute}, \hyperpage{5}
+  \item \spxentry{template\_name}\spxextra{pages.views.HomePageView attribute}, \hyperpage{5}
+
+  \indexspace
+  \bigletter U
+  \item \spxentry{user\_permissions}\spxextra{users.models.CustomUser attribute}, \hyperpage{4}
+  \item \spxentry{userdata}\spxextra{class in users.models}, \hyperpage{4}
+  \item \spxentry{userdata.DoesNotExist}, \hyperpage{4}
+  \item \spxentry{userdata.MultipleObjectsReturned}, \hyperpage{4}
+  \item \spxentry{users.forms}
+    \subitem \spxentry{module}, \hyperpage{6}
+  \item \spxentry{users.models}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{users.views}
+    \subitem \spxentry{module}, \hyperpage{5}
+
+\end{sphinxtheindex}

@@ -1,0 +1,12 @@
+Welcome to ResourceSharing’s documentation!
+*******************************************
+
+Contents:
+
+* All about us
+
+* Models
+
+* Views
+
+* Forms
