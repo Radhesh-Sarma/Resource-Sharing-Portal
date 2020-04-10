@@ -30,4 +30,5 @@ _static\pygments.css
 modules\all-about-us.html
 modules\forms.html
 modules\models.html
+modules\serializers.html
 modules\views.html

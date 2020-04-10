@@ -41,7 +41,7 @@
 <span id="models"></span><h2>Models<a class="headerlink" href="#module-blog.models" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="blog.models.Task">
-<em class="property">class </em><code class="sig-prename descclassname">blog.models.</code><code class="sig-name descname">Task</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em>, <em class="sig-param"><span class="n">author</span></em>, <em class="sig-param"><span class="n">content</span></em>, <em class="sig-param"><span class="n">date_created</span></em>, <em class="sig-param"><span class="n">resource_type</span></em><span class="sig-paren">)</span><a class="headerlink" href="#blog.models.Task" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">blog.models.</code><code class="sig-name descname">Task</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em>, <em class="sig-param"><span class="n">author</span></em>, <em class="sig-param"><span class="n">content</span></em>, <em class="sig-param"><span class="n">date_created</span></em><span class="sig-paren">)</span><a class="headerlink" href="#blog.models.Task" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py exception">
 <dt id="blog.models.Task.DoesNotExist">
 <em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#blog.models.Task.DoesNotExist" title="Permalink to this definition">¶</a></dt>
@@ -96,11 +96,6 @@ object the first time, the query is executed.</p>
 <code class="sig-name descname">get_previous_by_date_created</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">field=&lt;django.db.models.fields.DateTimeField: date_created&gt;</em>, <em class="sig-param">is_next=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#blog.models.Task.get_previous_by_date_created" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="py method">
-<dt id="blog.models.Task.get_resource_type_display">
-<code class="sig-name descname">get_resource_type_display</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">field=&lt;django.db.models.fields.CharField: resource_type&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#blog.models.Task.get_resource_type_display" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
 <dl class="py attribute">
 <dt id="blog.models.Task.id">
 <code class="sig-name descname">id</code><a class="headerlink" href="#blog.models.Task.id" title="Permalink to this definition">¶</a></dt>
@@ -112,13 +107,6 @@ object the first time, the query is executed.</p>
 <dt id="blog.models.Task.objects">
 <code class="sig-name descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em><a class="headerlink" href="#blog.models.Task.objects" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
-
-<dl class="py attribute">
-<dt id="blog.models.Task.resource_type">
-<code class="sig-name descname">resource_type</code><a class="headerlink" href="#blog.models.Task.resource_type" title="Permalink to this definition">¶</a></dt>
-<dd><p>A wrapper for a deferred-loading field. When the value is read from this
-object the first time, the query is executed.</p>
-</dd></dl>
 
 </dd></dl>
 
@@ -296,7 +284,71 @@ object the first time, the query is executed.</p>
 </div>
 <span id="document-modules/views"></span><div class="section" id="module-users.views">
 <span id="views"></span><h2>Views<a class="headerlink" href="#module-users.views" title="Permalink to this headline">¶</a></h2>
-<span class="target" id="module-blog.views"></span><dl class="py function">
+<dl class="py class">
+<dt id="users.views.UserDetail">
+<em class="property">class </em><code class="sig-prename descclassname">users.views.</code><code class="sig-name descname">UserDetail</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#users.views.UserDetail" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="users.views.UserDetail.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;CustomUser: radheshsarma2299&#64;outlook.com&gt;]&gt;</em><a class="headerlink" href="#users.views.UserDetail.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.views.UserDetail.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#users.views.UserDetail.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="index.html#users.serializers.UserSerializer" title="users.serializers.UserSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.serializers.UserSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="users.views.UserList">
+<em class="property">class </em><code class="sig-prename descclassname">users.views.</code><code class="sig-name descname">UserList</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#users.views.UserList" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="users.views.UserList.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;CustomUser: radheshsarma2299&#64;outlook.com&gt;]&gt;</em><a class="headerlink" href="#users.views.UserList.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.views.UserList.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#users.views.UserList.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="index.html#users.serializers.UserSerializer" title="users.serializers.UserSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.serializers.UserSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-blog.views"></span><dl class="py class">
+<dt id="blog.views.BlogDetail">
+<em class="property">class </em><code class="sig-prename descclassname">blog.views.</code><code class="sig-name descname">BlogDetail</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#blog.views.BlogDetail" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="blog.views.BlogDetail.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;Task: Demo 1&gt;]&gt;</em><a class="headerlink" href="#blog.views.BlogDetail.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.views.BlogDetail.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#blog.views.BlogDetail.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="index.html#blog.serializers.BlogSerializer" title="blog.serializers.BlogSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">blog.serializers.BlogSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="blog.views.BlogList">
+<em class="property">class </em><code class="sig-prename descclassname">blog.views.</code><code class="sig-name descname">BlogList</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#blog.views.BlogList" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="blog.views.BlogList.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;Task: Demo 1&gt;]&gt;</em><a class="headerlink" href="#blog.views.BlogList.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.views.BlogList.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#blog.views.BlogList.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="index.html#blog.serializers.BlogSerializer" title="blog.serializers.BlogSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">blog.serializers.BlogSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
 <dt id="blog.views.home">
 <code class="sig-prename descclassname">blog.views.</code><code class="sig-name descname">home</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="headerlink" href="#blog.views.home" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -450,7 +502,7 @@ object the first time, the query is executed.</p>
 <em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#blog.forms.PostForm.Meta" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py attribute">
 <dt id="blog.forms.PostForm.Meta.fields">
-<code class="sig-name descname">fields</code><em class="property"> = ('content', 'resource_type')</em><a class="headerlink" href="#blog.forms.PostForm.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">fields</code><em class="property"> = ('content',)</em><a class="headerlink" href="#blog.forms.PostForm.Meta.fields" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
@@ -463,7 +515,7 @@ object the first time, the query is executed.</p>
 
 <dl class="py attribute">
 <dt id="blog.forms.PostForm.base_fields">
-<code class="sig-name descname">base_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'content': &lt;django.forms.fields.CharField object&gt;, 'resource_type': &lt;django.forms.fields.TypedChoiceField object&gt;}</em><a class="headerlink" href="#blog.forms.PostForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">base_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'content': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#blog.forms.PostForm.base_fields" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
@@ -475,6 +527,51 @@ object the first time, the query is executed.</p>
 <dt id="blog.forms.PostForm.media">
 <em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#blog.forms.PostForm.media" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<span id="document-modules/serializers"></span><div class="section" id="module-blog.serializers">
+<span id="serializers"></span><h2>Serializers<a class="headerlink" href="#module-blog.serializers" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="blog.serializers.BlogSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">blog.serializers.</code><code class="sig-name descname">BlogSerializer</code><span class="sig-paren">(</span><em class="sig-param">instance=None</em>, <em class="sig-param">data=&lt;class 'rest_framework.fields.empty'&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#blog.serializers.BlogSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py class">
+<dt id="blog.serializers.BlogSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#blog.serializers.BlogSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="blog.serializers.BlogSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = 'content'</em><a class="headerlink" href="#blog.serializers.BlogSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.serializers.BlogSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#blog.serializers.BlogSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="index.html#blog.models.Task" title="blog.models.Task"><code class="xref py py-class docutils literal notranslate"><span class="pre">blog.models.Task</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-users.serializers"></span><dl class="py class">
+<dt id="users.serializers.UserSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">users.serializers.</code><code class="sig-name descname">UserSerializer</code><span class="sig-paren">(</span><em class="sig-param">instance=None</em>, <em class="sig-param">data=&lt;class 'rest_framework.fields.empty'&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#users.serializers.UserSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py class">
+<dt id="users.serializers.UserSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#users.serializers.UserSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="users.serializers.UserSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ('mobile_number', 'address', 'email')</em><a class="headerlink" href="#users.serializers.UserSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.serializers.UserSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#users.serializers.UserSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="index.html#users.models.CustomUser" title="users.models.CustomUser"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.models.CustomUser</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
 
 </dd></dl>
 
@@ -505,6 +602,7 @@ object the first time, the query is executed.</p>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-modules/models">Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-modules/views">Views</a></li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-modules/forms">Forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-modules/serializers">Serializers</a></li>
 </ul>
 
 <div class="relations">
@@ -527,7 +625,7 @@ object the first time, the query is executed.</p>
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Mohan Krishna, Abhirath Singh.
+      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Krishna, Abhirath Singh.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.0</a>

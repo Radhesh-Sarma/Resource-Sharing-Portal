@@ -48,6 +48,14 @@
     <param name="Local" value="modules/models.html#module-blog.models">
 </OBJECT>
 </UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.serializers">
+    <param name="See Also" value="blog.serializers">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/serializers.html#module-blog.serializers">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="blog.views">
     <param name="See Also" value="blog.views">
 </OBJECT>
@@ -56,6 +64,22 @@
     <param name="Local" value="modules/views.html#module-blog.views">
 </OBJECT>
 </UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="BlogDetail (class in blog.views)">
+    <param name="Local" value="modules/views.html#blog.views.BlogDetail">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="BlogList (class in blog.views)">
+    <param name="Local" value="modules/views.html#blog.views.BlogList">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="BlogSerializer (class in blog.serializers)">
+    <param name="Local" value="modules/serializers.html#blog.serializers.BlogSerializer">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="BlogSerializer.Meta (class in blog.serializers)">
+    <param name="Local" value="modules/serializers.html#blog.serializers.BlogSerializer.Meta">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="content (blog.models.Task attribute)">
     <param name="Local" value="modules/models.html#blog.models.Task.content">
 </OBJECT>
@@ -124,6 +148,10 @@
     <param name="Local" value="modules/forms.html#blog.forms.PostForm.Meta.fields">
 </OBJECT>
 <UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(blog.serializers.BlogSerializer.Meta attribute)">
+    <param name="Local" value="modules/serializers.html#blog.serializers.BlogSerializer.Meta.fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="(users.forms.CustomUserChangeForm.Meta attribute)">
     <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.Meta.fields">
 </OBJECT>
@@ -134,6 +162,10 @@
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="(users.forms.PostForm.Meta attribute)">
     <param name="Local" value="modules/forms.html#users.forms.PostForm.Meta.fields">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.serializers.UserSerializer.Meta attribute)">
+    <param name="Local" value="modules/serializers.html#users.serializers.UserSerializer.Meta.fields">
 </OBJECT>
 </UL><LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="get_next_by_date_created() (blog.models.Task method)">
@@ -150,10 +182,6 @@
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="get_previous_by_date_joined() (users.models.CustomUser method)">
     <param name="Local" value="modules/models.html#users.models.CustomUser.get_previous_by_date_joined">
-</OBJECT>
-<LI> <OBJECT type="text/sitemap">
-    <param name="Keyword" value="get_resource_type_display() (blog.models.Task method)">
-    <param name="Local" value="modules/models.html#blog.models.Task.get_resource_type_display">
 </OBJECT>
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="groups (users.models.CustomUser attribute)">
@@ -208,6 +236,10 @@
     <param name="Local" value="modules/forms.html#blog.forms.PostForm.Meta.model">
 </OBJECT>
 <UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(blog.serializers.BlogSerializer.Meta attribute)">
+    <param name="Local" value="modules/serializers.html#blog.serializers.BlogSerializer.Meta.model">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="(users.forms.CustomUserChangeForm.Meta attribute)">
     <param name="Local" value="modules/forms.html#users.forms.CustomUserChangeForm.Meta.model">
 </OBJECT>
@@ -218,6 +250,10 @@
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="(users.forms.PostForm.Meta attribute)">
     <param name="Local" value="modules/forms.html#users.forms.PostForm.Meta.model">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.serializers.UserSerializer.Meta attribute)">
+    <param name="Local" value="modules/serializers.html#users.serializers.UserSerializer.Meta.model">
 </OBJECT>
 </UL><LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="module">
@@ -230,6 +266,10 @@
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="blog.models">
     <param name="Local" value="modules/models.html#module-blog.models">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="blog.serializers">
+    <param name="Local" value="modules/serializers.html#module-blog.serializers">
 </OBJECT>
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="blog.views">
@@ -246,6 +286,10 @@
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="users.models">
     <param name="Local" value="modules/models.html#module-users.models">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.serializers">
+    <param name="Local" value="modules/serializers.html#module-users.serializers">
 </OBJECT>
 <LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="users.views">
@@ -288,14 +332,42 @@
     <param name="Local" value="modules/forms.html#users.forms.PostForm.Meta">
 </OBJECT>
 </UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="queryset (blog.views.BlogDetail attribute)">
+    <param name="Local" value="modules/views.html#blog.views.BlogDetail.queryset">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(blog.views.BlogList attribute)">
+    <param name="Local" value="modules/views.html#blog.views.BlogList.queryset">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.views.UserDetail attribute)">
+    <param name="Local" value="modules/views.html#users.views.UserDetail.queryset">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.views.UserList attribute)">
+    <param name="Local" value="modules/views.html#users.views.UserList.queryset">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="remove() (in module blog.views)">
     <param name="Local" value="modules/views.html#blog.views.remove">
 </OBJECT>
 <LI> <OBJECT type="text/sitemap">
-    <param name="Keyword" value="resource_type (blog.models.Task attribute)">
-    <param name="Local" value="modules/models.html#blog.models.Task.resource_type">
+    <param name="Keyword" value="serializer_class (blog.views.BlogDetail attribute)">
+    <param name="Local" value="modules/views.html#blog.views.BlogDetail.serializer_class">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(blog.views.BlogList attribute)">
+    <param name="Local" value="modules/views.html#blog.views.BlogList.serializer_class">
 </OBJECT>
 <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.views.UserDetail attribute)">
+    <param name="Local" value="modules/views.html#users.views.UserDetail.serializer_class">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="(users.views.UserList attribute)">
+    <param name="Local" value="modules/views.html#users.views.UserList.serializer_class">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="Task (class in blog.models)">
     <param name="Local" value="modules/models.html#blog.models.Task">
 </OBJECT>
@@ -340,6 +412,14 @@
     <param name="Local" value="modules/models.html#users.models.userdata.MultipleObjectsReturned">
 </OBJECT>
 <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="UserDetail (class in users.views)">
+    <param name="Local" value="modules/views.html#users.views.UserDetail">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="UserList (class in users.views)">
+    <param name="Local" value="modules/views.html#users.views.UserList">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="users.forms">
     <param name="See Also" value="users.forms">
 </OBJECT>
@@ -356,6 +436,14 @@
     <param name="Local" value="modules/models.html#module-users.models">
 </OBJECT>
 </UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="users.serializers">
+    <param name="See Also" value="users.serializers">
+</OBJECT>
+<UL> <LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="module">
+    <param name="Local" value="modules/serializers.html#module-users.serializers">
+</OBJECT>
+</UL><LI> <OBJECT type="text/sitemap">
     <param name="Keyword" value="users.views">
     <param name="See Also" value="users.views">
 </OBJECT>
@@ -363,4 +451,12 @@
     <param name="Keyword" value="module">
     <param name="Local" value="modules/views.html#module-users.views">
 </OBJECT>
-</UL></UL>
+</UL><LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="UserSerializer (class in users.serializers)">
+    <param name="Local" value="modules/serializers.html#users.serializers.UserSerializer">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Keyword" value="UserSerializer.Meta (class in users.serializers)">
+    <param name="Local" value="modules/serializers.html#users.serializers.UserSerializer.Meta">
+</OBJECT>
+</UL>

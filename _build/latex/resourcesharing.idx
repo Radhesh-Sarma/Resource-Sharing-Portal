@@ -9,15 +9,13 @@
 \indexentry{date\_created (blog.models.Task attribute)@\spxentry{date\_created}\spxextra{blog.models.Task attribute}|hyperpage}{2}
 \indexentry{get\_next\_by\_date\_created() (blog.models.Task method)@\spxentry{get\_next\_by\_date\_created()}\spxextra{blog.models.Task method}|hyperpage}{2}
 \indexentry{get\_previous\_by\_date\_created() (blog.models.Task method)@\spxentry{get\_previous\_by\_date\_created()}\spxextra{blog.models.Task method}|hyperpage}{2}
-\indexentry{get\_resource\_type\_display() (blog.models.Task method)@\spxentry{get\_resource\_type\_display()}\spxextra{blog.models.Task method}|hyperpage}{2}
 \indexentry{id (blog.models.Task attribute)@\spxentry{id}\spxextra{blog.models.Task attribute}|hyperpage}{2}
 \indexentry{objects (blog.models.Task attribute)@\spxentry{objects}\spxextra{blog.models.Task attribute}|hyperpage}{2}
-\indexentry{resource\_type (blog.models.Task attribute)@\spxentry{resource\_type}\spxextra{blog.models.Task attribute}|hyperpage}{2}
 \indexentry{module@\spxentry{module}!users.models@\spxentry{users.models}|hyperpage}{2}
 \indexentry{users.models@\spxentry{users.models}!module@\spxentry{module}|hyperpage}{2}
 \indexentry{CustomUser (class in users.models)@\spxentry{CustomUser}\spxextra{class in users.models}|hyperpage}{2}
-\indexentry{CustomUser.DoesNotExist@\spxentry{CustomUser.DoesNotExist}|hyperpage}{3}
-\indexentry{CustomUser.MultipleObjectsReturned@\spxentry{CustomUser.MultipleObjectsReturned}|hyperpage}{3}
+\indexentry{CustomUser.DoesNotExist@\spxentry{CustomUser.DoesNotExist}|hyperpage}{2}
+\indexentry{CustomUser.MultipleObjectsReturned@\spxentry{CustomUser.MultipleObjectsReturned}|hyperpage}{2}
 \indexentry{address (users.models.CustomUser attribute)@\spxentry{address}\spxextra{users.models.CustomUser attribute}|hyperpage}{3}
 \indexentry{emailaddress\_set (users.models.CustomUser attribute)@\spxentry{emailaddress\_set}\spxextra{users.models.CustomUser attribute}|hyperpage}{3}
 \indexentry{get\_next\_by\_date\_joined() (users.models.CustomUser method)@\spxentry{get\_next\_by\_date\_joined()}\spxextra{users.models.CustomUser method}|hyperpage}{3}
@@ -26,7 +24,7 @@
 \indexentry{id (users.models.CustomUser attribute)@\spxentry{id}\spxextra{users.models.CustomUser attribute}|hyperpage}{3}
 \indexentry{logentry\_set (users.models.CustomUser attribute)@\spxentry{logentry\_set}\spxextra{users.models.CustomUser attribute}|hyperpage}{3}
 \indexentry{mobile\_number (users.models.CustomUser attribute)@\spxentry{mobile\_number}\spxextra{users.models.CustomUser attribute}|hyperpage}{3}
-\indexentry{task\_set (users.models.CustomUser attribute)@\spxentry{task\_set}\spxextra{users.models.CustomUser attribute}|hyperpage}{4}
+\indexentry{task\_set (users.models.CustomUser attribute)@\spxentry{task\_set}\spxextra{users.models.CustomUser attribute}|hyperpage}{3}
 \indexentry{user\_permissions (users.models.CustomUser attribute)@\spxentry{user\_permissions}\spxextra{users.models.CustomUser attribute}|hyperpage}{4}
 \indexentry{userdata (class in users.models)@\spxentry{userdata}\spxextra{class in users.models}|hyperpage}{4}
 \indexentry{userdata.DoesNotExist@\spxentry{userdata.DoesNotExist}|hyperpage}{4}
@@ -38,8 +36,20 @@
 \indexentry{objects (users.models.userdata attribute)@\spxentry{objects}\spxextra{users.models.userdata attribute}|hyperpage}{4}
 \indexentry{module@\spxentry{module}!users.views@\spxentry{users.views}|hyperpage}{5}
 \indexentry{users.views@\spxentry{users.views}!module@\spxentry{module}|hyperpage}{5}
+\indexentry{UserDetail (class in users.views)@\spxentry{UserDetail}\spxextra{class in users.views}|hyperpage}{5}
+\indexentry{queryset (users.views.UserDetail attribute)@\spxentry{queryset}\spxextra{users.views.UserDetail attribute}|hyperpage}{5}
+\indexentry{serializer\_class (users.views.UserDetail attribute)@\spxentry{serializer\_class}\spxextra{users.views.UserDetail attribute}|hyperpage}{5}
+\indexentry{UserList (class in users.views)@\spxentry{UserList}\spxextra{class in users.views}|hyperpage}{5}
+\indexentry{queryset (users.views.UserList attribute)@\spxentry{queryset}\spxextra{users.views.UserList attribute}|hyperpage}{5}
+\indexentry{serializer\_class (users.views.UserList attribute)@\spxentry{serializer\_class}\spxextra{users.views.UserList attribute}|hyperpage}{5}
 \indexentry{module@\spxentry{module}!blog.views@\spxentry{blog.views}|hyperpage}{5}
 \indexentry{blog.views@\spxentry{blog.views}!module@\spxentry{module}|hyperpage}{5}
+\indexentry{BlogDetail (class in blog.views)@\spxentry{BlogDetail}\spxextra{class in blog.views}|hyperpage}{5}
+\indexentry{queryset (blog.views.BlogDetail attribute)@\spxentry{queryset}\spxextra{blog.views.BlogDetail attribute}|hyperpage}{5}
+\indexentry{serializer\_class (blog.views.BlogDetail attribute)@\spxentry{serializer\_class}\spxextra{blog.views.BlogDetail attribute}|hyperpage}{5}
+\indexentry{BlogList (class in blog.views)@\spxentry{BlogList}\spxextra{class in blog.views}|hyperpage}{5}
+\indexentry{queryset (blog.views.BlogList attribute)@\spxentry{queryset}\spxextra{blog.views.BlogList attribute}|hyperpage}{5}
+\indexentry{serializer\_class (blog.views.BlogList attribute)@\spxentry{serializer\_class}\spxextra{blog.views.BlogList attribute}|hyperpage}{5}
 \indexentry{home() (in module blog.views)@\spxentry{home()}\spxextra{in module blog.views}|hyperpage}{5}
 \indexentry{remove() (in module blog.views)@\spxentry{remove()}\spxextra{in module blog.views}|hyperpage}{5}
 \indexentry{task\_list() (in module blog.views)@\spxentry{task\_list()}\spxextra{in module blog.views}|hyperpage}{5}
@@ -81,3 +91,15 @@
 \indexentry{base\_fields (blog.forms.PostForm attribute)@\spxentry{base\_fields}\spxextra{blog.forms.PostForm attribute}|hyperpage}{7}
 \indexentry{declared\_fields (blog.forms.PostForm attribute)@\spxentry{declared\_fields}\spxextra{blog.forms.PostForm attribute}|hyperpage}{7}
 \indexentry{media() (blog.forms.PostForm property)@\spxentry{media()}\spxextra{blog.forms.PostForm property}|hyperpage}{7}
+\indexentry{module@\spxentry{module}!blog.serializers@\spxentry{blog.serializers}|hyperpage}{8}
+\indexentry{blog.serializers@\spxentry{blog.serializers}!module@\spxentry{module}|hyperpage}{8}
+\indexentry{BlogSerializer (class in blog.serializers)@\spxentry{BlogSerializer}\spxextra{class in blog.serializers}|hyperpage}{8}
+\indexentry{BlogSerializer.Meta (class in blog.serializers)@\spxentry{BlogSerializer.Meta}\spxextra{class in blog.serializers}|hyperpage}{8}
+\indexentry{fields (blog.serializers.BlogSerializer.Meta attribute)@\spxentry{fields}\spxextra{blog.serializers.BlogSerializer.Meta attribute}|hyperpage}{8}
+\indexentry{model (blog.serializers.BlogSerializer.Meta attribute)@\spxentry{model}\spxextra{blog.serializers.BlogSerializer.Meta attribute}|hyperpage}{8}
+\indexentry{module@\spxentry{module}!users.serializers@\spxentry{users.serializers}|hyperpage}{8}
+\indexentry{users.serializers@\spxentry{users.serializers}!module@\spxentry{module}|hyperpage}{8}
+\indexentry{UserSerializer (class in users.serializers)@\spxentry{UserSerializer}\spxextra{class in users.serializers}|hyperpage}{8}
+\indexentry{UserSerializer.Meta (class in users.serializers)@\spxentry{UserSerializer.Meta}\spxextra{class in users.serializers}|hyperpage}{8}
+\indexentry{fields (users.serializers.UserSerializer.Meta attribute)@\spxentry{fields}\spxextra{users.serializers.UserSerializer.Meta attribute}|hyperpage}{8}
+\indexentry{model (users.serializers.UserSerializer.Meta attribute)@\spxentry{model}\spxextra{users.serializers.UserSerializer.Meta attribute}|hyperpage}{8}

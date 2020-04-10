@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QHelpCollectionProject version="1.0">
+    <assistant>
+        <title>Resource Sharing Beta 1.0 documentation</title>
+        <homePage>qthelp://org.sphinx.resourcesharing.1.0/doc/index.html</homePage>
+        <startPage>qthelp://org.sphinx.resourcesharing.1.0/doc/index.html</startPage>
+    </assistant>
+    <docFiles>
+        <generate>
+            <file>
+                <input>ResourceSharing.qhp</input>
+                <output>ResourceSharing.qch</output>
+            </file>
+        </generate>
+        <register>
+            <file>ResourceSharing.qch</file>
+        </register>
+    </docFiles>
+</QHelpCollectionProject>

@@ -15,12 +15,12 @@ from users.models import CustomUser
 from rest_framework import generics
 from .serializers import BlogSerializer
 
-class SnippetList(generics.ListCreateAPIView):
+class BlogList(generics.ListCreateAPIView):
     queryset = Task.objects.all()
     serializer_class = BlogSerializer
 
 
-class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+class BlogDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Task.objects.all()
     serializer_class = BlogSerializer
 

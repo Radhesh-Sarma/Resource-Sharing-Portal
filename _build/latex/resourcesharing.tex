@@ -99,7 +99,7 @@ We are Django developers from BITS Pilani Hyderabad Campus
 \label{\detokenize{modules/models:module-blog.models}}\label{\detokenize{modules/models:models}}\label{\detokenize{modules/models::doc}}\index{module@\spxentry{module}!blog.models@\spxentry{blog.models}}\index{blog.models@\spxentry{blog.models}!module@\spxentry{module}}\index{Task (class in blog.models)@\spxentry{Task}\spxextra{class in blog.models}}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{modules/models:blog.models.Task}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{blog.models.}}\sphinxbfcode{\sphinxupquote{Task}}}{\emph{\DUrole{n}{id}}, \emph{\DUrole{n}{author}}, \emph{\DUrole{n}{content}}, \emph{\DUrole{n}{date\_created}}, \emph{\DUrole{n}{resource\_type}}}{}~\index{Task.DoesNotExist@\spxentry{Task.DoesNotExist}}
+\phantomsection\label{\detokenize{modules/models:blog.models.Task}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{blog.models.}}\sphinxbfcode{\sphinxupquote{Task}}}{\emph{\DUrole{n}{id}}, \emph{\DUrole{n}{author}}, \emph{\DUrole{n}{content}}, \emph{\DUrole{n}{date\_created}}}{}~\index{Task.DoesNotExist@\spxentry{Task.DoesNotExist}}
 
 \begin{fulllineitems}
 \phantomsection\label{\detokenize{modules/models:blog.models.Task.DoesNotExist}}\pysigline{\sphinxbfcode{\sphinxupquote{exception }}\sphinxbfcode{\sphinxupquote{DoesNotExist}}}
@@ -168,12 +168,6 @@ object the first time, the query is executed.
 \phantomsection\label{\detokenize{modules/models:blog.models.Task.get_previous_by_date_created}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{get\_previous\_by\_date\_created}}}{\emph{*}, \emph{field=\textless{}django.db.models.fields.DateTimeField: date\_created\textgreater{}}, \emph{is\_next=False}, \emph{**kwargs}}{}
 \end{fulllineitems}
 
-\index{get\_resource\_type\_display() (blog.models.Task method)@\spxentry{get\_resource\_type\_display()}\spxextra{blog.models.Task method}}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{modules/models:blog.models.Task.get_resource_type_display}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{get\_resource\_type\_display}}}{\emph{*}, \emph{field=\textless{}django.db.models.fields.CharField: resource\_type\textgreater{}}}{}
-\end{fulllineitems}
-
 \index{id (blog.models.Task attribute)@\spxentry{id}\spxextra{blog.models.Task attribute}}
 
 \begin{fulllineitems}
@@ -187,15 +181,6 @@ object the first time, the query is executed.
 
 \begin{fulllineitems}
 \phantomsection\label{\detokenize{modules/models:blog.models.Task.objects}}\pysigline{\sphinxbfcode{\sphinxupquote{objects}}\sphinxbfcode{\sphinxupquote{ = \textless{}django.db.models.manager.Manager object\textgreater{}}}}
-\end{fulllineitems}
-
-\index{resource\_type (blog.models.Task attribute)@\spxentry{resource\_type}\spxextra{blog.models.Task attribute}}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{modules/models:blog.models.Task.resource_type}}\pysigline{\sphinxbfcode{\sphinxupquote{resource\_type}}}
-A wrapper for a deferred\sphinxhyphen{}loading field. When the value is read from this
-object the first time, the query is executed.
-
 \end{fulllineitems}
 
 
@@ -428,7 +413,87 @@ object the first time, the query is executed.
 
 
 \chapter{Views}
-\label{\detokenize{modules/views:module-users.views}}\label{\detokenize{modules/views:views}}\label{\detokenize{modules/views::doc}}\index{module@\spxentry{module}!users.views@\spxentry{users.views}}\index{users.views@\spxentry{users.views}!module@\spxentry{module}}\phantomsection\label{\detokenize{modules/views:module-blog.views}}\index{module@\spxentry{module}!blog.views@\spxentry{blog.views}}\index{blog.views@\spxentry{blog.views}!module@\spxentry{module}}\index{home() (in module blog.views)@\spxentry{home()}\spxextra{in module blog.views}}
+\label{\detokenize{modules/views:module-users.views}}\label{\detokenize{modules/views:views}}\label{\detokenize{modules/views::doc}}\index{module@\spxentry{module}!users.views@\spxentry{users.views}}\index{users.views@\spxentry{users.views}!module@\spxentry{module}}\index{UserDetail (class in users.views)@\spxentry{UserDetail}\spxextra{class in users.views}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:users.views.UserDetail}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{users.views.}}\sphinxbfcode{\sphinxupquote{UserDetail}}}{\emph{\DUrole{o}{**}\DUrole{n}{kwargs}}}{}~\index{queryset (users.views.UserDetail attribute)@\spxentry{queryset}\spxextra{users.views.UserDetail attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:users.views.UserDetail.queryset}}\pysigline{\sphinxbfcode{\sphinxupquote{queryset}}\sphinxbfcode{\sphinxupquote{ = \textless{}QuerySet {[}\textless{}CustomUser: radheshsarma2299@outlook.com\textgreater{}{]}\textgreater{}}}}
+\end{fulllineitems}
+
+\index{serializer\_class (users.views.UserDetail attribute)@\spxentry{serializer\_class}\spxextra{users.views.UserDetail attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:users.views.UserDetail.serializer_class}}\pysigline{\sphinxbfcode{\sphinxupquote{serializer\_class}}}
+alias of {\hyperref[\detokenize{modules/serializers:users.serializers.UserSerializer}]{\sphinxcrossref{\sphinxcode{\sphinxupquote{users.serializers.UserSerializer}}}}}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\index{UserList (class in users.views)@\spxentry{UserList}\spxextra{class in users.views}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:users.views.UserList}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{users.views.}}\sphinxbfcode{\sphinxupquote{UserList}}}{\emph{\DUrole{o}{**}\DUrole{n}{kwargs}}}{}~\index{queryset (users.views.UserList attribute)@\spxentry{queryset}\spxextra{users.views.UserList attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:users.views.UserList.queryset}}\pysigline{\sphinxbfcode{\sphinxupquote{queryset}}\sphinxbfcode{\sphinxupquote{ = \textless{}QuerySet {[}\textless{}CustomUser: radheshsarma2299@outlook.com\textgreater{}{]}\textgreater{}}}}
+\end{fulllineitems}
+
+\index{serializer\_class (users.views.UserList attribute)@\spxentry{serializer\_class}\spxextra{users.views.UserList attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:users.views.UserList.serializer_class}}\pysigline{\sphinxbfcode{\sphinxupquote{serializer\_class}}}
+alias of {\hyperref[\detokenize{modules/serializers:users.serializers.UserSerializer}]{\sphinxcrossref{\sphinxcode{\sphinxupquote{users.serializers.UserSerializer}}}}}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\phantomsection\label{\detokenize{modules/views:module-blog.views}}\index{module@\spxentry{module}!blog.views@\spxentry{blog.views}}\index{blog.views@\spxentry{blog.views}!module@\spxentry{module}}\index{BlogDetail (class in blog.views)@\spxentry{BlogDetail}\spxextra{class in blog.views}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:blog.views.BlogDetail}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{blog.views.}}\sphinxbfcode{\sphinxupquote{BlogDetail}}}{\emph{\DUrole{o}{**}\DUrole{n}{kwargs}}}{}~\index{queryset (blog.views.BlogDetail attribute)@\spxentry{queryset}\spxextra{blog.views.BlogDetail attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:blog.views.BlogDetail.queryset}}\pysigline{\sphinxbfcode{\sphinxupquote{queryset}}\sphinxbfcode{\sphinxupquote{ = \textless{}QuerySet {[}\textless{}Task: Demo 1\textgreater{}{]}\textgreater{}}}}
+\end{fulllineitems}
+
+\index{serializer\_class (blog.views.BlogDetail attribute)@\spxentry{serializer\_class}\spxextra{blog.views.BlogDetail attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:blog.views.BlogDetail.serializer_class}}\pysigline{\sphinxbfcode{\sphinxupquote{serializer\_class}}}
+alias of {\hyperref[\detokenize{modules/serializers:blog.serializers.BlogSerializer}]{\sphinxcrossref{\sphinxcode{\sphinxupquote{blog.serializers.BlogSerializer}}}}}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\index{BlogList (class in blog.views)@\spxentry{BlogList}\spxextra{class in blog.views}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:blog.views.BlogList}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{blog.views.}}\sphinxbfcode{\sphinxupquote{BlogList}}}{\emph{\DUrole{o}{**}\DUrole{n}{kwargs}}}{}~\index{queryset (blog.views.BlogList attribute)@\spxentry{queryset}\spxextra{blog.views.BlogList attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:blog.views.BlogList.queryset}}\pysigline{\sphinxbfcode{\sphinxupquote{queryset}}\sphinxbfcode{\sphinxupquote{ = \textless{}QuerySet {[}\textless{}Task: Demo 1\textgreater{}{]}\textgreater{}}}}
+\end{fulllineitems}
+
+\index{serializer\_class (blog.views.BlogList attribute)@\spxentry{serializer\_class}\spxextra{blog.views.BlogList attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/views:blog.views.BlogList.serializer_class}}\pysigline{\sphinxbfcode{\sphinxupquote{serializer\_class}}}
+alias of {\hyperref[\detokenize{modules/serializers:blog.serializers.BlogSerializer}]{\sphinxcrossref{\sphinxcode{\sphinxupquote{blog.serializers.BlogSerializer}}}}}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\index{home() (in module blog.views)@\spxentry{home()}\spxextra{in module blog.views}}
 
 \begin{fulllineitems}
 \phantomsection\label{\detokenize{modules/views:blog.views.home}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{blog.views.}}\sphinxbfcode{\sphinxupquote{home}}}{\emph{\DUrole{n}{request}}}{}
@@ -614,7 +679,7 @@ alias of {\hyperref[\detokenize{modules/models:users.models.userdata}]{\sphinxcr
 \phantomsection\label{\detokenize{modules/forms:blog.forms.PostForm.Meta}}\pysigline{\sphinxbfcode{\sphinxupquote{class }}\sphinxbfcode{\sphinxupquote{Meta}}}~\index{fields (blog.forms.PostForm.Meta attribute)@\spxentry{fields}\spxextra{blog.forms.PostForm.Meta attribute}}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{modules/forms:blog.forms.PostForm.Meta.fields}}\pysigline{\sphinxbfcode{\sphinxupquote{fields}}\sphinxbfcode{\sphinxupquote{ = (\textquotesingle{}content\textquotesingle{}, \textquotesingle{}resource\_type\textquotesingle{})}}}
+\phantomsection\label{\detokenize{modules/forms:blog.forms.PostForm.Meta.fields}}\pysigline{\sphinxbfcode{\sphinxupquote{fields}}\sphinxbfcode{\sphinxupquote{ = (\textquotesingle{}content\textquotesingle{},)}}}
 \end{fulllineitems}
 
 \index{model (blog.forms.PostForm.Meta attribute)@\spxentry{model}\spxextra{blog.forms.PostForm.Meta attribute}}
@@ -631,7 +696,7 @@ alias of {\hyperref[\detokenize{modules/models:blog.models.Task}]{\sphinxcrossre
 \index{base\_fields (blog.forms.PostForm attribute)@\spxentry{base\_fields}\spxextra{blog.forms.PostForm attribute}}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{modules/forms:blog.forms.PostForm.base_fields}}\pysigline{\sphinxbfcode{\sphinxupquote{base\_fields}}\sphinxbfcode{\sphinxupquote{ = \{\textquotesingle{}captcha\textquotesingle{}: \textless{}captcha.fields.ReCaptchaField object\textgreater{}, \textquotesingle{}content\textquotesingle{}: \textless{}django.forms.fields.CharField object\textgreater{}, \textquotesingle{}resource\_type\textquotesingle{}: \textless{}django.forms.fields.TypedChoiceField object\textgreater{}\}}}}
+\phantomsection\label{\detokenize{modules/forms:blog.forms.PostForm.base_fields}}\pysigline{\sphinxbfcode{\sphinxupquote{base\_fields}}\sphinxbfcode{\sphinxupquote{ = \{\textquotesingle{}captcha\textquotesingle{}: \textless{}captcha.fields.ReCaptchaField object\textgreater{}, \textquotesingle{}content\textquotesingle{}: \textless{}django.forms.fields.CharField object\textgreater{}\}}}}
 \end{fulllineitems}
 
 \index{declared\_fields (blog.forms.PostForm attribute)@\spxentry{declared\_fields}\spxextra{blog.forms.PostForm attribute}}
@@ -651,12 +716,68 @@ alias of {\hyperref[\detokenize{modules/models:blog.models.Task}]{\sphinxcrossre
 
 
 
+\chapter{Serializers}
+\label{\detokenize{modules/serializers:module-blog.serializers}}\label{\detokenize{modules/serializers:serializers}}\label{\detokenize{modules/serializers::doc}}\index{module@\spxentry{module}!blog.serializers@\spxentry{blog.serializers}}\index{blog.serializers@\spxentry{blog.serializers}!module@\spxentry{module}}\index{BlogSerializer (class in blog.serializers)@\spxentry{BlogSerializer}\spxextra{class in blog.serializers}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:blog.serializers.BlogSerializer}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{blog.serializers.}}\sphinxbfcode{\sphinxupquote{BlogSerializer}}}{\emph{instance=None}, \emph{data=\textless{}class \textquotesingle{}rest\_framework.fields.empty\textquotesingle{}\textgreater{}}, \emph{**kwargs}}{}~\index{BlogSerializer.Meta (class in blog.serializers)@\spxentry{BlogSerializer.Meta}\spxextra{class in blog.serializers}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:blog.serializers.BlogSerializer.Meta}}\pysigline{\sphinxbfcode{\sphinxupquote{class }}\sphinxbfcode{\sphinxupquote{Meta}}}~\index{fields (blog.serializers.BlogSerializer.Meta attribute)@\spxentry{fields}\spxextra{blog.serializers.BlogSerializer.Meta attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:blog.serializers.BlogSerializer.Meta.fields}}\pysigline{\sphinxbfcode{\sphinxupquote{fields}}\sphinxbfcode{\sphinxupquote{ = \textquotesingle{}content\textquotesingle{}}}}
+\end{fulllineitems}
+
+\index{model (blog.serializers.BlogSerializer.Meta attribute)@\spxentry{model}\spxextra{blog.serializers.BlogSerializer.Meta attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:blog.serializers.BlogSerializer.Meta.model}}\pysigline{\sphinxbfcode{\sphinxupquote{model}}}
+alias of {\hyperref[\detokenize{modules/models:blog.models.Task}]{\sphinxcrossref{\sphinxcode{\sphinxupquote{blog.models.Task}}}}}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\phantomsection\label{\detokenize{modules/serializers:module-users.serializers}}\index{module@\spxentry{module}!users.serializers@\spxentry{users.serializers}}\index{users.serializers@\spxentry{users.serializers}!module@\spxentry{module}}\index{UserSerializer (class in users.serializers)@\spxentry{UserSerializer}\spxextra{class in users.serializers}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:users.serializers.UserSerializer}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{users.serializers.}}\sphinxbfcode{\sphinxupquote{UserSerializer}}}{\emph{instance=None}, \emph{data=\textless{}class \textquotesingle{}rest\_framework.fields.empty\textquotesingle{}\textgreater{}}, \emph{**kwargs}}{}~\index{UserSerializer.Meta (class in users.serializers)@\spxentry{UserSerializer.Meta}\spxextra{class in users.serializers}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:users.serializers.UserSerializer.Meta}}\pysigline{\sphinxbfcode{\sphinxupquote{class }}\sphinxbfcode{\sphinxupquote{Meta}}}~\index{fields (users.serializers.UserSerializer.Meta attribute)@\spxentry{fields}\spxextra{users.serializers.UserSerializer.Meta attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:users.serializers.UserSerializer.Meta.fields}}\pysigline{\sphinxbfcode{\sphinxupquote{fields}}\sphinxbfcode{\sphinxupquote{ = (\textquotesingle{}mobile\_number\textquotesingle{}, \textquotesingle{}address\textquotesingle{}, \textquotesingle{}email\textquotesingle{})}}}
+\end{fulllineitems}
+
+\index{model (users.serializers.UserSerializer.Meta attribute)@\spxentry{model}\spxextra{users.serializers.UserSerializer.Meta attribute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules/serializers:users.serializers.UserSerializer.Meta.model}}\pysigline{\sphinxbfcode{\sphinxupquote{model}}}
+alias of {\hyperref[\detokenize{modules/models:users.models.CustomUser}]{\sphinxcrossref{\sphinxcode{\sphinxupquote{users.models.CustomUser}}}}}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+
+
 \renewcommand{\indexname}{Python Module Index}
 \begin{sphinxtheindex}
 \let\bigletter\sphinxstyleindexlettergroup
 \bigletter{b}
 \item\relax\sphinxstyleindexentry{blog.forms}\sphinxstyleindexpageref{modules/forms:\detokenize{module-blog.forms}}
 \item\relax\sphinxstyleindexentry{blog.models}\sphinxstyleindexpageref{modules/models:\detokenize{module-blog.models}}
+\item\relax\sphinxstyleindexentry{blog.serializers}\sphinxstyleindexpageref{modules/serializers:\detokenize{module-blog.serializers}}
 \item\relax\sphinxstyleindexentry{blog.views}\sphinxstyleindexpageref{modules/views:\detokenize{module-blog.views}}
 \indexspace
 \bigletter{p}
@@ -665,6 +786,7 @@ alias of {\hyperref[\detokenize{modules/models:blog.models.Task}]{\sphinxcrossre
 \bigletter{u}
 \item\relax\sphinxstyleindexentry{users.forms}\sphinxstyleindexpageref{modules/forms:\detokenize{module-users.forms}}
 \item\relax\sphinxstyleindexentry{users.models}\sphinxstyleindexpageref{modules/models:\detokenize{module-users.models}}
+\item\relax\sphinxstyleindexentry{users.serializers}\sphinxstyleindexpageref{modules/serializers:\detokenize{module-users.serializers}}
 \item\relax\sphinxstyleindexentry{users.views}\sphinxstyleindexpageref{modules/views:\detokenize{module-users.views}}
 \end{sphinxtheindex}
 

@@ -49,7 +49,9 @@
  | <a href="#N"><strong>N</strong></a>
  | <a href="#O"><strong>O</strong></a>
  | <a href="#P"><strong>P</strong></a>
+ | <a href="#Q"><strong>Q</strong></a>
  | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
  | <a href="#T"><strong>T</strong></a>
  | <a href="#U"><strong>U</strong></a>
  
@@ -90,13 +92,20 @@
         <li><a href="../modules/forms/#module-blog.forms">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     blog.models
 
       <ul>
         <li><a href="../modules/models/#module-blog.models">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    blog.serializers
+
+      <ul>
+        <li><a href="../modules/serializers/#module-blog.serializers">module</a>
 </li>
       </ul></li>
       <li>
@@ -106,6 +115,14 @@
         <li><a href="../modules/views/#module-blog.views">module</a>
 </li>
       </ul></li>
+      <li><a href="../modules/views/#blog.views.BlogDetail">BlogDetail (class in blog.views)</a>
+</li>
+      <li><a href="../modules/views/#blog.views.BlogList">BlogList (class in blog.views)</a>
+</li>
+      <li><a href="../modules/serializers/#blog.serializers.BlogSerializer">BlogSerializer (class in blog.serializers)</a>
+</li>
+      <li><a href="../modules/serializers/#blog.serializers.BlogSerializer.Meta">BlogSerializer.Meta (class in blog.serializers)</a>
+</li>
   </ul></td>
 </tr></table>
 
@@ -173,11 +190,15 @@
       <li><a href="../modules/forms/#blog.forms.PostForm.Meta.fields">fields (blog.forms.PostForm.Meta attribute)</a>
 
       <ul>
+        <li><a href="../modules/serializers/#blog.serializers.BlogSerializer.Meta.fields">(blog.serializers.BlogSerializer.Meta attribute)</a>
+</li>
         <li><a href="../modules/forms/#users.forms.CustomUserChangeForm.Meta.fields">(users.forms.CustomUserChangeForm.Meta attribute)</a>
 </li>
         <li><a href="../modules/forms/#users.forms.CustomUserCreationForm.Meta.fields">(users.forms.CustomUserCreationForm.Meta attribute)</a>
 </li>
         <li><a href="../modules/forms/#users.forms.PostForm.Meta.fields">(users.forms.PostForm.Meta attribute)</a>
+</li>
+        <li><a href="../modules/serializers/#users.serializers.UserSerializer.Meta.fields">(users.serializers.UserSerializer.Meta attribute)</a>
 </li>
       </ul></li>
   </ul></td>
@@ -190,13 +211,11 @@
 </li>
       <li><a href="../modules/models/#users.models.CustomUser.get_next_by_date_joined">get_next_by_date_joined() (users.models.CustomUser method)</a>
 </li>
-      <li><a href="../modules/models/#blog.models.Task.get_previous_by_date_created">get_previous_by_date_created() (blog.models.Task method)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="../modules/models/#users.models.CustomUser.get_previous_by_date_joined">get_previous_by_date_joined() (users.models.CustomUser method)</a>
+      <li><a href="../modules/models/#blog.models.Task.get_previous_by_date_created">get_previous_by_date_created() (blog.models.Task method)</a>
 </li>
-      <li><a href="../modules/models/#blog.models.Task.get_resource_type_display">get_resource_type_display() (blog.models.Task method)</a>
+      <li><a href="../modules/models/#users.models.CustomUser.get_previous_by_date_joined">get_previous_by_date_joined() (users.models.CustomUser method)</a>
 </li>
       <li><a href="../modules/models/#users.models.CustomUser.groups">groups (users.models.CustomUser attribute)</a>
 </li>
@@ -255,11 +274,15 @@
       <li><a href="../modules/forms/#blog.forms.PostForm.Meta.model">model (blog.forms.PostForm.Meta attribute)</a>
 
       <ul>
+        <li><a href="../modules/serializers/#blog.serializers.BlogSerializer.Meta.model">(blog.serializers.BlogSerializer.Meta attribute)</a>
+</li>
         <li><a href="../modules/forms/#users.forms.CustomUserChangeForm.Meta.model">(users.forms.CustomUserChangeForm.Meta attribute)</a>
 </li>
         <li><a href="../modules/forms/#users.forms.CustomUserCreationForm.Meta.model">(users.forms.CustomUserCreationForm.Meta attribute)</a>
 </li>
         <li><a href="../modules/forms/#users.forms.PostForm.Meta.model">(users.forms.PostForm.Meta attribute)</a>
+</li>
+        <li><a href="../modules/serializers/#users.serializers.UserSerializer.Meta.model">(users.serializers.UserSerializer.Meta attribute)</a>
 </li>
       </ul></li>
   </ul></td>
@@ -272,6 +295,8 @@
 </li>
         <li><a href="../modules/models/#module-blog.models">blog.models</a>
 </li>
+        <li><a href="../modules/serializers/#module-blog.serializers">blog.serializers</a>
+</li>
         <li><a href="../modules/views/#module-blog.views">blog.views</a>
 </li>
         <li><a href="../modules/views/#module-pages.views">pages.views</a>
@@ -279,6 +304,8 @@
         <li><a href="../modules/forms/#module-users.forms">users.forms</a>
 </li>
         <li><a href="../modules/models/#module-users.models">users.models</a>
+</li>
+        <li><a href="../modules/serializers/#module-users.serializers">users.serializers</a>
 </li>
         <li><a href="../modules/views/#module-users.views">users.views</a>
 </li>
@@ -333,15 +360,43 @@
   </ul></td>
 </tr></table>
 
+<h2 id="Q">Q</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="../modules/views/#blog.views.BlogDetail.queryset">queryset (blog.views.BlogDetail attribute)</a>
+
+      <ul>
+        <li><a href="../modules/views/#blog.views.BlogList.queryset">(blog.views.BlogList attribute)</a>
+</li>
+        <li><a href="../modules/views/#users.views.UserDetail.queryset">(users.views.UserDetail attribute)</a>
+</li>
+        <li><a href="../modules/views/#users.views.UserList.queryset">(users.views.UserList attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
 <h2 id="R">R</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="../modules/views/#blog.views.remove">remove() (in module blog.views)</a>
 </li>
   </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="../modules/models/#blog.models.Task.resource_type">resource_type (blog.models.Task attribute)</a>
+      <li><a href="../modules/views/#blog.views.BlogDetail.serializer_class">serializer_class (blog.views.BlogDetail attribute)</a>
+
+      <ul>
+        <li><a href="../modules/views/#blog.views.BlogList.serializer_class">(blog.views.BlogList attribute)</a>
 </li>
+        <li><a href="../modules/views/#users.views.UserDetail.serializer_class">(users.views.UserDetail attribute)</a>
+</li>
+        <li><a href="../modules/views/#users.views.UserList.serializer_class">(users.views.UserList attribute)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
@@ -380,6 +435,10 @@
 </li>
       <li><a href="../modules/models/#users.models.userdata.MultipleObjectsReturned">userdata.MultipleObjectsReturned</a>
 </li>
+      <li><a href="../modules/views/#users.views.UserDetail">UserDetail (class in users.views)</a>
+</li>
+      <li><a href="../modules/views/#users.views.UserList">UserList (class in users.views)</a>
+</li>
       <li>
     users.forms
 
@@ -397,12 +456,23 @@
 </li>
       </ul></li>
       <li>
+    users.serializers
+
+      <ul>
+        <li><a href="../modules/serializers/#module-users.serializers">module</a>
+</li>
+      </ul></li>
+      <li>
     users.views
 
       <ul>
         <li><a href="../modules/views/#module-users.views">module</a>
 </li>
       </ul></li>
+      <li><a href="../modules/serializers/#users.serializers.UserSerializer">UserSerializer (class in users.serializers)</a>
+</li>
+      <li><a href="../modules/serializers/#users.serializers.UserSerializer.Meta">UserSerializer.Meta (class in users.serializers)</a>
+</li>
   </ul></td>
 </tr></table>
 
@@ -430,6 +500,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../modules/models/">Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../modules/views/">Views</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../modules/forms/">Forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/serializers/">Serializers</a></li>
 </ul>
 
 <div class="relations">
@@ -462,7 +533,7 @@
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Mohan Krishna, Abhirath Singh.
+      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Krishna, Abhirath Singh.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.0</a>

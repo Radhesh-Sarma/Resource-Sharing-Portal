@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Serializers &#8212; Resource Sharing Beta 1.0 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="prev" title="Forms" href="../forms/" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-blog.serializers">
+<span id="serializers"></span><h1>Serializers<a class="headerlink" href="#module-blog.serializers" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="blog.serializers.BlogSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">blog.serializers.</code><code class="sig-name descname">BlogSerializer</code><span class="sig-paren">(</span><em class="sig-param">instance=None</em>, <em class="sig-param">data=&lt;class 'rest_framework.fields.empty'&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#blog.serializers.BlogSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py class">
+<dt id="blog.serializers.BlogSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#blog.serializers.BlogSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="blog.serializers.BlogSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = 'content'</em><a class="headerlink" href="#blog.serializers.BlogSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="blog.serializers.BlogSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#blog.serializers.BlogSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="../models/#blog.models.Task" title="blog.models.Task"><code class="xref py py-class docutils literal notranslate"><span class="pre">blog.models.Task</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-users.serializers"></span><dl class="py class">
+<dt id="users.serializers.UserSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">users.serializers.</code><code class="sig-name descname">UserSerializer</code><span class="sig-paren">(</span><em class="sig-param">instance=None</em>, <em class="sig-param">data=&lt;class 'rest_framework.fields.empty'&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#users.serializers.UserSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py class">
+<dt id="users.serializers.UserSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#users.serializers.UserSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py attribute">
+<dt id="users.serializers.UserSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ('mobile_number', 'address', 'email')</em><a class="headerlink" href="#users.serializers.UserSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="users.serializers.UserSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#users.serializers.UserSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="../models/#users.models.CustomUser" title="users.models.CustomUser"><code class="xref py py-class docutils literal notranslate"><span class="pre">users.models.CustomUser</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../">Resource Sharing</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../all-about-us/">All about us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../models/">Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../views/">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../forms/">Forms</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Serializers</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../">Documentation overview</a><ul>
+      <li>Previous: <a href="../forms/" title="previous chapter">Forms</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search/" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Krishna, Abhirath Singh.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/modules/serializers.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

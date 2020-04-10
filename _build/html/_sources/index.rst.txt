@@ -15,4 +15,4 @@ Welcome to ResourceSharing's documentation!
    modules/models.rst
    modules/views.rst
    modules/forms.rst
-
+   modules/serializers.rst

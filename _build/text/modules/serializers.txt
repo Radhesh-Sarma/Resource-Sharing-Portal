@@ -1,0 +1,22 @@
+Serializers
+***********
+
+class blog.serializers.BlogSerializer(instance=None, data=<class 'rest_framework.fields.empty'>, **kwargs)
+
+   class Meta
+
+      fields = 'content'
+
+      model
+
+         alias of "blog.models.Task"
+
+class users.serializers.UserSerializer(instance=None, data=<class 'rest_framework.fields.empty'>, **kwargs)
+
+   class Meta
+
+      fields = ('mobile_number', 'address', 'email')
+
+      model
+
+         alias of "users.models.CustomUser"

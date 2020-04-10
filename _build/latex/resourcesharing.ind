@@ -21,16 +21,22 @@
     \subitem \spxentry{module}, \hyperpage{7}
   \item \spxentry{blog.models}
     \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{blog.serializers}
+    \subitem \spxentry{module}, \hyperpage{8}
   \item \spxentry{blog.views}
     \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{BlogDetail}\spxextra{class in blog.views}, \hyperpage{5}
+  \item \spxentry{BlogList}\spxextra{class in blog.views}, \hyperpage{5}
+  \item \spxentry{BlogSerializer}\spxextra{class in blog.serializers}, \hyperpage{8}
+  \item \spxentry{BlogSerializer.Meta}\spxextra{class in blog.serializers}, \hyperpage{8}
 
   \indexspace
   \bigletter C
   \item \spxentry{content}\spxextra{blog.models.Task attribute}, \hyperpage{2}
   \item \spxentry{content}\spxextra{users.models.userdata attribute}, \hyperpage{4}
   \item \spxentry{CustomUser}\spxextra{class in users.models}, \hyperpage{2}
-  \item \spxentry{CustomUser.DoesNotExist}, \hyperpage{3}
-  \item \spxentry{CustomUser.MultipleObjectsReturned}, \hyperpage{3}
+  \item \spxentry{CustomUser.DoesNotExist}, \hyperpage{2}
+  \item \spxentry{CustomUser.MultipleObjectsReturned}, \hyperpage{2}
   \item \spxentry{CustomUserChangeForm}\spxextra{class in users.forms}, \hyperpage{6}
   \item \spxentry{CustomUserChangeForm.Meta}\spxextra{class in users.forms}, \hyperpage{6}
   \item \spxentry{CustomUserCreationForm}\spxextra{class in users.forms}, \hyperpage{6}
@@ -54,10 +60,12 @@
   \indexspace
   \bigletter F
   \item \spxentry{fields}\spxextra{blog.forms.PostForm.Meta attribute}, \hyperpage{7}
+  \item \spxentry{fields}\spxextra{blog.serializers.BlogSerializer.Meta attribute}, \hyperpage{8}
   \item \spxentry{fields}\spxextra{users.forms.CustomUserChangeForm.Meta attribute}, \hyperpage{6}
   \item \spxentry{fields}\spxextra{users.forms.CustomUserCreationForm.Meta attribute}, 
 		\hyperpage{6}
   \item \spxentry{fields}\spxextra{users.forms.PostForm.Meta attribute}, \hyperpage{6}
+  \item \spxentry{fields}\spxextra{users.serializers.UserSerializer.Meta attribute}, \hyperpage{8}
 
   \indexspace
   \bigletter G
@@ -68,7 +76,6 @@
 		\hyperpage{2}
   \item \spxentry{get\_previous\_by\_date\_joined()}\spxextra{users.models.CustomUser method}, 
 		\hyperpage{3}
-  \item \spxentry{get\_resource\_type\_display()}\spxextra{blog.models.Task method}, \hyperpage{2}
   \item \spxentry{groups}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
 
   \indexspace
@@ -94,16 +101,20 @@
   \item \spxentry{media()}\spxextra{users.forms.PostForm property}, \hyperpage{6}
   \item \spxentry{mobile\_number}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
   \item \spxentry{model}\spxextra{blog.forms.PostForm.Meta attribute}, \hyperpage{7}
+  \item \spxentry{model}\spxextra{blog.serializers.BlogSerializer.Meta attribute}, \hyperpage{8}
   \item \spxentry{model}\spxextra{users.forms.CustomUserChangeForm.Meta attribute}, \hyperpage{6}
   \item \spxentry{model}\spxextra{users.forms.CustomUserCreationForm.Meta attribute}, \hyperpage{6}
   \item \spxentry{model}\spxextra{users.forms.PostForm.Meta attribute}, \hyperpage{6}
+  \item \spxentry{model}\spxextra{users.serializers.UserSerializer.Meta attribute}, \hyperpage{8}
   \item \spxentry{module}
     \subitem \spxentry{blog.forms}, \hyperpage{7}
     \subitem \spxentry{blog.models}, \hyperpage{2}
+    \subitem \spxentry{blog.serializers}, \hyperpage{8}
     \subitem \spxentry{blog.views}, \hyperpage{5}
     \subitem \spxentry{pages.views}, \hyperpage{5}
     \subitem \spxentry{users.forms}, \hyperpage{6}
     \subitem \spxentry{users.models}, \hyperpage{2}
+    \subitem \spxentry{users.serializers}, \hyperpage{8}
     \subitem \spxentry{users.views}, \hyperpage{5}
 
   \indexspace
@@ -125,9 +136,22 @@
   \item \spxentry{PostForm.Meta}\spxextra{class in users.forms}, \hyperpage{6}
 
   \indexspace
+  \bigletter Q
+  \item \spxentry{queryset}\spxextra{blog.views.BlogDetail attribute}, \hyperpage{5}
+  \item \spxentry{queryset}\spxextra{blog.views.BlogList attribute}, \hyperpage{5}
+  \item \spxentry{queryset}\spxextra{users.views.UserDetail attribute}, \hyperpage{5}
+  \item \spxentry{queryset}\spxextra{users.views.UserList attribute}, \hyperpage{5}
+
+  \indexspace
   \bigletter R
   \item \spxentry{remove()}\spxextra{in module blog.views}, \hyperpage{5}
-  \item \spxentry{resource\_type}\spxextra{blog.models.Task attribute}, \hyperpage{2}
+
+  \indexspace
+  \bigletter S
+  \item \spxentry{serializer\_class}\spxextra{blog.views.BlogDetail attribute}, \hyperpage{5}
+  \item \spxentry{serializer\_class}\spxextra{blog.views.BlogList attribute}, \hyperpage{5}
+  \item \spxentry{serializer\_class}\spxextra{users.views.UserDetail attribute}, \hyperpage{5}
+  \item \spxentry{serializer\_class}\spxextra{users.views.UserList attribute}, \hyperpage{5}
 
   \indexspace
   \bigletter T
@@ -135,7 +159,7 @@
   \item \spxentry{Task.DoesNotExist}, \hyperpage{2}
   \item \spxentry{Task.MultipleObjectsReturned}, \hyperpage{2}
   \item \spxentry{task\_list()}\spxextra{in module blog.views}, \hyperpage{5}
-  \item \spxentry{task\_set}\spxextra{users.models.CustomUser attribute}, \hyperpage{4}
+  \item \spxentry{task\_set}\spxextra{users.models.CustomUser attribute}, \hyperpage{3}
   \item \spxentry{template\_name}\spxextra{pages.views.AboutPageView attribute}, \hyperpage{5}
   \item \spxentry{template\_name}\spxextra{pages.views.HomePageView attribute}, \hyperpage{5}
 
@@ -145,11 +169,17 @@
   \item \spxentry{userdata}\spxextra{class in users.models}, \hyperpage{4}
   \item \spxentry{userdata.DoesNotExist}, \hyperpage{4}
   \item \spxentry{userdata.MultipleObjectsReturned}, \hyperpage{4}
+  \item \spxentry{UserDetail}\spxextra{class in users.views}, \hyperpage{5}
+  \item \spxentry{UserList}\spxextra{class in users.views}, \hyperpage{5}
   \item \spxentry{users.forms}
     \subitem \spxentry{module}, \hyperpage{6}
   \item \spxentry{users.models}
     \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{users.serializers}
+    \subitem \spxentry{module}, \hyperpage{8}
   \item \spxentry{users.views}
     \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{UserSerializer}\spxextra{class in users.serializers}, \hyperpage{8}
+  \item \spxentry{UserSerializer.Meta}\spxextra{class in users.serializers}, \hyperpage{8}
 
 \end{sphinxtheindex}

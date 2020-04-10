@@ -33,4 +33,8 @@
     <param name="Name" value="Forms">
     <param name="Local" value="modules/forms.html">
 </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Serializers">
+    <param name="Local" value="modules/serializers.html">
+</OBJECT>
 </UL></BODY></HTML>

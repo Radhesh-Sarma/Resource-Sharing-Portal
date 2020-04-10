@@ -31,7 +31,7 @@
 <span id="models"></span><h1>Models</h1>
 <dl class="py class">
 <dt id="blog.models.Task">
-<em class="property">class </em><code class="descclassname">blog.models.</code><code class="descname">Task</code><span class="sig-paren">(</span><em><span class="n">id</span></em>, <em><span class="n">author</span></em>, <em><span class="n">content</span></em>, <em><span class="n">date_created</span></em>, <em><span class="n">resource_type</span></em><span class="sig-paren">)</span></dt>
+<em class="property">class </em><code class="descclassname">blog.models.</code><code class="descname">Task</code><span class="sig-paren">(</span><em><span class="n">id</span></em>, <em><span class="n">author</span></em>, <em><span class="n">content</span></em>, <em><span class="n">date_created</span></em><span class="sig-paren">)</span></dt>
 <dd><dl class="py exception">
 <dt id="blog.models.Task.DoesNotExist">
 <em class="property">exception </em><code class="descname">DoesNotExist</code></dt>
@@ -86,11 +86,6 @@ object the first time, the query is executed.</p>
 <code class="descname">get_previous_by_date_created</code><span class="sig-paren">(</span><em>*</em>, <em>field=&lt;django.db.models.fields.DateTimeField: date_created&gt;</em>, <em>is_next=False</em>, <em>**kwargs</em><span class="sig-paren">)</span></dt>
 <dd></dd></dl>
 
-<dl class="py method">
-<dt id="blog.models.Task.get_resource_type_display">
-<code class="descname">get_resource_type_display</code><span class="sig-paren">(</span><em>*</em>, <em>field=&lt;django.db.models.fields.CharField: resource_type&gt;</em><span class="sig-paren">)</span></dt>
-<dd></dd></dl>
-
 <dl class="py attribute">
 <dt id="blog.models.Task.id">
 <code class="descname">id</code></dt>
@@ -102,13 +97,6 @@ object the first time, the query is executed.</p>
 <dt id="blog.models.Task.objects">
 <code class="descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em></dt>
 <dd></dd></dl>
-
-<dl class="py attribute">
-<dt id="blog.models.Task.resource_type">
-<code class="descname">resource_type</code></dt>
-<dd><p>A wrapper for a deferred-loading field. When the value is read from this
-object the first time, the query is executed.</p>
-</dd></dl>
 
 </dd></dl>
 
@@ -292,7 +280,7 @@ object the first time, the query is executed.</p>
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Mohan Krishna, Abhirath Singh.
+      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Krishna, Abhirath Singh.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.0</a>

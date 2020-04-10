@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QtHelpProject version="1.0">
+    <namespace>org.sphinx.resourcesharing.1.0</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <customFilter name="Resource Sharing 1.0">
+        <filterAttribute>ResourceSharing</filterAttribute>
+        <filterAttribute>1.0</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>ResourceSharing</filterAttribute>
+        <filterAttribute>1.0</filterAttribute>
+        <toc>
+            <section title="Resource Sharing Beta 1.0 documentation" ref="index.html">
+                <section title="All about us" ref="modules/all-about-us.html"/>
+                <section title="Models" ref="modules/models.html"/>
+                <section title="Views" ref="modules/views.html"/>
+                <section title="Forms" ref="modules/forms.html"/>
+                <section title="Serializers" ref="modules/serializers.html"/>
+                <section title="Python Module Index" ref="py-modindex.html"/>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="AboutPageView (class in pages.views)" id="pages.views.AboutPageView" ref="modules/views.html#pages.views.AboutPageView"/>
+            <keyword name="address (users.models.CustomUser attribute)" id="users.models.CustomUser.address" ref="modules/models.html#users.models.CustomUser.address"/>
+            <keyword name="author (blog.models.Task attribute)" id="blog.models.Task.author" ref="modules/models.html#blog.models.Task.author"/>
+            <keyword name="author_id (blog.models.Task attribute)" id="blog.models.Task.author_id" ref="modules/models.html#blog.models.Task.author_id"/>
+            <keyword name="base_fields (blog.forms.PostForm attribute)" id="blog.forms.PostForm.base_fields" ref="modules/forms.html#blog.forms.PostForm.base_fields"/>
+            <keyword name="base_fields (users.forms.CustomUserChangeForm attribute)" id="users.forms.CustomUserChangeForm.base_fields" ref="modules/forms.html#users.forms.CustomUserChangeForm.base_fields"/>
+            <keyword name="base_fields (users.forms.CustomUserCreationForm attribute)" id="users.forms.CustomUserCreationForm.base_fields" ref="modules/forms.html#users.forms.CustomUserCreationForm.base_fields"/>
+            <keyword name="base_fields (users.forms.PostForm attribute)" id="users.forms.PostForm.base_fields" ref="modules/forms.html#users.forms.PostForm.base_fields"/>
+            <keyword name="module" ref="modules/forms.html#module-blog.forms"/>
+            <keyword name="module" ref="modules/models.html#module-blog.models"/>
+            <keyword name="module" ref="modules/serializers.html#module-blog.serializers"/>
+            <keyword name="module" ref="modules/views.html#module-blog.views"/>
+            <keyword name="BlogDetail (class in blog.views)" id="blog.views.BlogDetail" ref="modules/views.html#blog.views.BlogDetail"/>
+            <keyword name="BlogList (class in blog.views)" id="blog.views.BlogList" ref="modules/views.html#blog.views.BlogList"/>
+            <keyword name="BlogSerializer (class in blog.serializers)" id="blog.serializers.BlogSerializer" ref="modules/serializers.html#blog.serializers.BlogSerializer"/>
+            <keyword name="BlogSerializer.Meta (class in blog.serializers)" id="blog.serializers.BlogSerializer.Meta" ref="modules/serializers.html#blog.serializers.BlogSerializer.Meta"/>
+            <keyword name="content (blog.models.Task attribute)" id="blog.models.Task.content" ref="modules/models.html#blog.models.Task.content"/>
+            <keyword name="content (users.models.userdata attribute)" id="users.models.userdata.content" ref="modules/models.html#users.models.userdata.content"/>
+            <keyword name="CustomUser (class in users.models)" id="users.models.CustomUser" ref="modules/models.html#users.models.CustomUser"/>
+            <keyword name="CustomUser.DoesNotExist" ref="modules/models.html#users.models.CustomUser.DoesNotExist"/>
+            <keyword name="CustomUser.MultipleObjectsReturned" ref="modules/models.html#users.models.CustomUser.MultipleObjectsReturned"/>
+            <keyword name="CustomUserChangeForm (class in users.forms)" id="users.forms.CustomUserChangeForm" ref="modules/forms.html#users.forms.CustomUserChangeForm"/>
+            <keyword name="CustomUserChangeForm.Meta (class in users.forms)" id="users.forms.CustomUserChangeForm.Meta" ref="modules/forms.html#users.forms.CustomUserChangeForm.Meta"/>
+            <keyword name="CustomUserCreationForm (class in users.forms)" id="users.forms.CustomUserCreationForm" ref="modules/forms.html#users.forms.CustomUserCreationForm"/>
+            <keyword name="CustomUserCreationForm.Meta (class in users.forms)" id="users.forms.CustomUserCreationForm.Meta" ref="modules/forms.html#users.forms.CustomUserCreationForm.Meta"/>
+            <keyword name="date_created (blog.models.Task attribute)" id="blog.models.Task.date_created" ref="modules/models.html#blog.models.Task.date_created"/>
+            <keyword name="declared_fields (blog.forms.PostForm attribute)" id="blog.forms.PostForm.declared_fields" ref="modules/forms.html#blog.forms.PostForm.declared_fields"/>
+            <keyword name="declared_fields (users.forms.CustomUserChangeForm attribute)" id="users.forms.CustomUserChangeForm.declared_fields" ref="modules/forms.html#users.forms.CustomUserChangeForm.declared_fields"/>
+            <keyword name="declared_fields (users.forms.CustomUserCreationForm attribute)" id="users.forms.CustomUserCreationForm.declared_fields" ref="modules/forms.html#users.forms.CustomUserCreationForm.declared_fields"/>
+            <keyword name="declared_fields (users.forms.PostForm attribute)" id="users.forms.PostForm.declared_fields" ref="modules/forms.html#users.forms.PostForm.declared_fields"/>
+            <keyword name="email (users.models.userdata attribute)" id="users.models.userdata.email" ref="modules/models.html#users.models.userdata.email"/>
+            <keyword name="emailaddress_set (users.models.CustomUser attribute)" id="users.models.CustomUser.emailaddress_set" ref="modules/models.html#users.models.CustomUser.emailaddress_set"/>
+            <keyword name="fields (blog.forms.PostForm.Meta attribute)" id="blog.forms.PostForm.Meta.fields" ref="modules/forms.html#blog.forms.PostForm.Meta.fields"/>
+            <keyword name="fields (blog.serializers.BlogSerializer.Meta attribute)" id="blog.serializers.BlogSerializer.Meta.fields" ref="modules/serializers.html#blog.serializers.BlogSerializer.Meta.fields"/>
+            <keyword name="fields (users.forms.CustomUserChangeForm.Meta attribute)" id="users.forms.CustomUserChangeForm.Meta.fields" ref="modules/forms.html#users.forms.CustomUserChangeForm.Meta.fields"/>
+            <keyword name="fields (users.forms.CustomUserCreationForm.Meta attribute)" id="users.forms.CustomUserCreationForm.Meta.fields" ref="modules/forms.html#users.forms.CustomUserCreationForm.Meta.fields"/>
+            <keyword name="fields (users.forms.PostForm.Meta attribute)" id="users.forms.PostForm.Meta.fields" ref="modules/forms.html#users.forms.PostForm.Meta.fields"/>
+            <keyword name="fields (users.serializers.UserSerializer.Meta attribute)" id="users.serializers.UserSerializer.Meta.fields" ref="modules/serializers.html#users.serializers.UserSerializer.Meta.fields"/>
+            <keyword name="get_next_by_date_created() (blog.models.Task method)" id="blog.models.Task.get_next_by_date_created" ref="modules/models.html#blog.models.Task.get_next_by_date_created"/>
+            <keyword name="get_next_by_date_joined() (users.models.CustomUser method)" id="users.models.CustomUser.get_next_by_date_joined" ref="modules/models.html#users.models.CustomUser.get_next_by_date_joined"/>
+            <keyword name="get_previous_by_date_created() (blog.models.Task method)" id="blog.models.Task.get_previous_by_date_created" ref="modules/models.html#blog.models.Task.get_previous_by_date_created"/>
+            <keyword name="get_previous_by_date_joined() (users.models.CustomUser method)" id="users.models.CustomUser.get_previous_by_date_joined" ref="modules/models.html#users.models.CustomUser.get_previous_by_date_joined"/>
+            <keyword name="groups (users.models.CustomUser attribute)" id="users.models.CustomUser.groups" ref="modules/models.html#users.models.CustomUser.groups"/>
+            <keyword name="home() (in module blog.views)" ref="modules/views.html#blog.views.home"/>
+            <keyword name="HomePageView (class in pages.views)" id="pages.views.HomePageView" ref="modules/views.html#pages.views.HomePageView"/>
+            <keyword name="id (blog.models.Task attribute)" id="blog.models.Task.id" ref="modules/models.html#blog.models.Task.id"/>
+            <keyword name="id (users.models.CustomUser attribute)" id="users.models.CustomUser.id" ref="modules/models.html#users.models.CustomUser.id"/>
+            <keyword name="id (users.models.userdata attribute)" id="users.models.userdata.id" ref="modules/models.html#users.models.userdata.id"/>
+            <keyword name="logentry_set (users.models.CustomUser attribute)" id="users.models.CustomUser.logentry_set" ref="modules/models.html#users.models.CustomUser.logentry_set"/>
+            <keyword name="media() (blog.forms.PostForm property)" id="blog.forms.PostForm.media" ref="modules/forms.html#blog.forms.PostForm.media"/>
+            <keyword name="media() (users.forms.CustomUserChangeForm property)" id="users.forms.CustomUserChangeForm.media" ref="modules/forms.html#users.forms.CustomUserChangeForm.media"/>
+            <keyword name="media() (users.forms.CustomUserCreationForm property)" id="users.forms.CustomUserCreationForm.media" ref="modules/forms.html#users.forms.CustomUserCreationForm.media"/>
+            <keyword name="media() (users.forms.PostForm property)" id="users.forms.PostForm.media" ref="modules/forms.html#users.forms.PostForm.media"/>
+            <keyword name="mobile_number (users.models.CustomUser attribute)" id="users.models.CustomUser.mobile_number" ref="modules/models.html#users.models.CustomUser.mobile_number"/>
+            <keyword name="model (blog.forms.PostForm.Meta attribute)" id="blog.forms.PostForm.Meta.model" ref="modules/forms.html#blog.forms.PostForm.Meta.model"/>
+            <keyword name="model (blog.serializers.BlogSerializer.Meta attribute)" id="blog.serializers.BlogSerializer.Meta.model" ref="modules/serializers.html#blog.serializers.BlogSerializer.Meta.model"/>
+            <keyword name="model (users.forms.CustomUserChangeForm.Meta attribute)" id="users.forms.CustomUserChangeForm.Meta.model" ref="modules/forms.html#users.forms.CustomUserChangeForm.Meta.model"/>
+            <keyword name="model (users.forms.CustomUserCreationForm.Meta attribute)" id="users.forms.CustomUserCreationForm.Meta.model" ref="modules/forms.html#users.forms.CustomUserCreationForm.Meta.model"/>
+            <keyword name="model (users.forms.PostForm.Meta attribute)" id="users.forms.PostForm.Meta.model" ref="modules/forms.html#users.forms.PostForm.Meta.model"/>
+            <keyword name="model (users.serializers.UserSerializer.Meta attribute)" id="users.serializers.UserSerializer.Meta.model" ref="modules/serializers.html#users.serializers.UserSerializer.Meta.model"/>
+            <keyword name="blog.forms" ref="modules/forms.html#module-blog.forms"/>
+            <keyword name="blog.models" ref="modules/models.html#module-blog.models"/>
+            <keyword name="blog.serializers" ref="modules/serializers.html#module-blog.serializers"/>
+            <keyword name="blog.views" ref="modules/views.html#module-blog.views"/>
+            <keyword name="pages.views" ref="modules/views.html#module-pages.views"/>
+            <keyword name="users.forms" ref="modules/forms.html#module-users.forms"/>
+            <keyword name="users.models" ref="modules/models.html#module-users.models"/>
+            <keyword name="users.serializers" ref="modules/serializers.html#module-users.serializers"/>
+            <keyword name="users.views" ref="modules/views.html#module-users.views"/>
+            <keyword name="name (users.models.userdata attribute)" id="users.models.userdata.name" ref="modules/models.html#users.models.userdata.name"/>
+            <keyword name="objects (blog.models.Task attribute)" id="blog.models.Task.objects" ref="modules/models.html#blog.models.Task.objects"/>
+            <keyword name="objects (users.models.userdata attribute)" id="users.models.userdata.objects" ref="modules/models.html#users.models.userdata.objects"/>
+            <keyword name="module" ref="modules/views.html#module-pages.views"/>
+            <keyword name="PostForm (class in blog.forms)" id="blog.forms.PostForm" ref="modules/forms.html#blog.forms.PostForm"/>
+            <keyword name="PostForm (class in users.forms)" id="users.forms.PostForm" ref="modules/forms.html#users.forms.PostForm"/>
+            <keyword name="PostForm.Meta (class in blog.forms)" id="blog.forms.PostForm.Meta" ref="modules/forms.html#blog.forms.PostForm.Meta"/>
+            <keyword name="PostForm.Meta (class in users.forms)" id="users.forms.PostForm.Meta" ref="modules/forms.html#users.forms.PostForm.Meta"/>
+            <keyword name="queryset (blog.views.BlogDetail attribute)" id="blog.views.BlogDetail.queryset" ref="modules/views.html#blog.views.BlogDetail.queryset"/>
+            <keyword name="queryset (blog.views.BlogList attribute)" id="blog.views.BlogList.queryset" ref="modules/views.html#blog.views.BlogList.queryset"/>
+            <keyword name="queryset (users.views.UserDetail attribute)" id="users.views.UserDetail.queryset" ref="modules/views.html#users.views.UserDetail.queryset"/>
+            <keyword name="queryset (users.views.UserList attribute)" id="users.views.UserList.queryset" ref="modules/views.html#users.views.UserList.queryset"/>
+            <keyword name="remove() (in module blog.views)" ref="modules/views.html#blog.views.remove"/>
+            <keyword name="serializer_class (blog.views.BlogDetail attribute)" id="blog.views.BlogDetail.serializer_class" ref="modules/views.html#blog.views.BlogDetail.serializer_class"/>
+            <keyword name="serializer_class (blog.views.BlogList attribute)" id="blog.views.BlogList.serializer_class" ref="modules/views.html#blog.views.BlogList.serializer_class"/>
+            <keyword name="serializer_class (users.views.UserDetail attribute)" id="users.views.UserDetail.serializer_class" ref="modules/views.html#users.views.UserDetail.serializer_class"/>
+            <keyword name="serializer_class (users.views.UserList attribute)" id="users.views.UserList.serializer_class" ref="modules/views.html#users.views.UserList.serializer_class"/>
+            <keyword name="Task (class in blog.models)" id="blog.models.Task" ref="modules/models.html#blog.models.Task"/>
+            <keyword name="Task.DoesNotExist" ref="modules/models.html#blog.models.Task.DoesNotExist"/>
+            <keyword name="Task.MultipleObjectsReturned" ref="modules/models.html#blog.models.Task.MultipleObjectsReturned"/>
+            <keyword name="task_list() (in module blog.views)" ref="modules/views.html#blog.views.task_list"/>
+            <keyword name="task_set (users.models.CustomUser attribute)" id="users.models.CustomUser.task_set" ref="modules/models.html#users.models.CustomUser.task_set"/>
+            <keyword name="template_name (pages.views.AboutPageView attribute)" id="pages.views.AboutPageView.template_name" ref="modules/views.html#pages.views.AboutPageView.template_name"/>
+            <keyword name="template_name (pages.views.HomePageView attribute)" id="pages.views.HomePageView.template_name" ref="modules/views.html#pages.views.HomePageView.template_name"/>
+            <keyword name="user_permissions (users.models.CustomUser attribute)" id="users.models.CustomUser.user_permissions" ref="modules/models.html#users.models.CustomUser.user_permissions"/>
+            <keyword name="userdata (class in users.models)" id="users.models.userdata" ref="modules/models.html#users.models.userdata"/>
+            <keyword name="userdata.DoesNotExist" ref="modules/models.html#users.models.userdata.DoesNotExist"/>
+            <keyword name="userdata.MultipleObjectsReturned" ref="modules/models.html#users.models.userdata.MultipleObjectsReturned"/>
+            <keyword name="UserDetail (class in users.views)" id="users.views.UserDetail" ref="modules/views.html#users.views.UserDetail"/>
+            <keyword name="UserList (class in users.views)" id="users.views.UserList" ref="modules/views.html#users.views.UserList"/>
+            <keyword name="module" ref="modules/forms.html#module-users.forms"/>
+            <keyword name="module" ref="modules/models.html#module-users.models"/>
+            <keyword name="module" ref="modules/serializers.html#module-users.serializers"/>
+            <keyword name="module" ref="modules/views.html#module-users.views"/>
+            <keyword name="UserSerializer (class in users.serializers)" id="users.serializers.UserSerializer" ref="modules/serializers.html#users.serializers.UserSerializer"/>
+            <keyword name="UserSerializer.Meta (class in users.serializers)" id="users.serializers.UserSerializer.Meta" ref="modules/serializers.html#users.serializers.UserSerializer.Meta"/>
+        </keywords>
+        <files>
+            <file>genindex.html</file>
+            <file>index.html</file>
+            <file>modules.html</file>
+            <file>py-modindex.html</file>
+            <file>_static/basic.css</file>
+            <file>_static/file.png</file>
+            <file>_static/minus.png</file>
+            <file>_static/nonav.css</file>
+            <file>_static/plus.png</file>
+            <file>_static/pygments.css</file>
+            <file>modules/all-about-us.html</file>
+            <file>modules/forms.html</file>
+            <file>modules/models.html</file>
+            <file>modules/serializers.html</file>
+            <file>modules/views.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

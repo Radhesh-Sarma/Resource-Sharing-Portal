@@ -14,6 +14,7 @@
     <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Serializers" href="../serializers/" />
     <link rel="prev" title="Views" href="../views/" />
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -149,7 +150,7 @@
 <em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#blog.forms.PostForm.Meta" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py attribute">
 <dt id="blog.forms.PostForm.Meta.fields">
-<code class="sig-name descname">fields</code><em class="property"> = ('content', 'resource_type')</em><a class="headerlink" href="#blog.forms.PostForm.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">fields</code><em class="property"> = ('content',)</em><a class="headerlink" href="#blog.forms.PostForm.Meta.fields" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
@@ -162,7 +163,7 @@
 
 <dl class="py attribute">
 <dt id="blog.forms.PostForm.base_fields">
-<code class="sig-name descname">base_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'content': &lt;django.forms.fields.CharField object&gt;, 'resource_type': &lt;django.forms.fields.TypedChoiceField object&gt;}</em><a class="headerlink" href="#blog.forms.PostForm.base_fields" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">base_fields</code><em class="property"> = {'captcha': &lt;captcha.fields.ReCaptchaField object&gt;, 'content': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#blog.forms.PostForm.base_fields" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
@@ -202,6 +203,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../models/">Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../views/">Views</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../serializers/">Serializers</a></li>
 </ul>
 
 <div class="relations">
@@ -209,6 +211,7 @@
 <ul>
   <li><a href="../../">Documentation overview</a><ul>
       <li>Previous: <a href="../views/" title="previous chapter">Views</a></li>
+      <li>Next: <a href="../serializers/" title="next chapter">Serializers</a></li>
   </ul></li>
 </ul>
 </div>
@@ -235,7 +238,7 @@
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Mohan Krishna, Abhirath Singh.
+      &copy;2020, Radhesh Sarma, Simran Sahni, Nikhil Krishna, Abhirath Singh.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.0</a>
