@@ -2,51 +2,44 @@
 
 Web portal to help people connect with each other and share resources and goods.
 
-## Installing
-1.Clone the repo and configure the virtual environment
+## Getting Started
+You need to install these :
+- [_python_](https://www.python.org/downloads/source/)
+- [_git_](https://git-scm.com/downloads/)
+- [_pip_](https://pip.pypa.io/en/stable/installing/)
 
-2. Set up the initial migration build the database.
-
+    
+To download the repo use : 
+```git
+    git clone https://github.com/Radhesh-Sarma/Resource-Sharing-Website.git
 ```
-$ pip install djangorestframework
-$ pip install django-allauth
-$ pip install django-tinymce
-$ pip install django-crispy-forms
-$ pip install django-debug-toolbar
-$ pip install pyyaml ua-parser user-agents
-$ pip install django-user-agents
-$ pip install captcha
-$ pip install django-simple-captcha
-$ pip install django-recaptcha
-$ pip install django-ipware
-$ python manage.py makemigrations
-$ python manage.py migrate
-=======
-$ sudo apt install postgresql postgresql-contrib
-$ pip install django psycopg2
-$ pip install django-allauth
-$ pip install django-crispy-forms
-$ pip install django-debug-toolbar
-$ pip install pyyaml ua-parser user-agents
-$ pip install django-user-agents
-$ pip install captcha
-$ pip install django-simple-captcha
-$ pip install django-recaptcha
-$ pip install django-ipware
-$ python manage.py makemigrations
-$ python manage.py migrate
-```
+## Installation 
+1. Install Postgresql for your os
 
-3.  Create a superuser:
-
+2. Install the virtual environment
+```bash
+    pip install pipenv
 ```
-$ python3 manage.py createsuperuser
+3. Activate the virtual env
+```bash
+    pipenv shell
 ```
-
-4.  Confirm everything is working:
-
+4. Download the dependencies
+```bash
+    pipenv install
 ```
-$ python3 manage.py runserver
+5.Set up the initial migration build the database.
+```bash
+  python manage.py makemigrations
+  python manage.py migrate
+```
+6.  Create a superuser:
+```bash
+  python manage.py createsuperuser
+```
+7.  Confirm everything is working:
+```bash
+  python manage.py runserver
 ```
 
 ## Authors
