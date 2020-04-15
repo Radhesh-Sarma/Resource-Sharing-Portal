@@ -8,6 +8,11 @@
 <title>{% block title %}MPI PROJECT{% endblock title %}</title>
 <meta name="author" content="">
 
+
+
+
+
+
 {% block css %}
 <!-- Bootstrap CSS -->
 
@@ -24,6 +29,7 @@
 
 <link rel="stylesheet" href="{% static 'css/base.css' %}">
 {% endblock %}
+
 </head>
 
 <body>
@@ -44,6 +50,8 @@
                 <a class="dropdown-item" href="{% url 'account_change_password' %}">Change password</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="{% url 'account_logout' %}">Log out</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" >Add Profile Image</a>
               </div>
             </li>
           </ul>
@@ -73,6 +81,9 @@
       <p>Default content...</p>
     {% endblock content %}
   </div>
+
+
+  {% block extra_js %}{% endblock extra_js %}
 
 
 

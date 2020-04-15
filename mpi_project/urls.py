@@ -3,6 +3,9 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
 from schema_graph.views import Schema
+from django_private_chat import urls as django_private_chat_urls
+
+
 urlpatterns = [
     path('admin/doc/', include('django.contrib.admindocs.urls')),
     path('admin/', admin.site.urls),
@@ -13,6 +16,7 @@ urlpatterns = [
    	path('', include('pages.urls')),
     url(r'^tinymce/', include('tinymce.urls')),
     path("schema/", Schema.as_view()),
+    url(r'^', include(django_private_chat_urls)),
 
 ]
 

@@ -1,0 +1,32 @@
+{% load static %}<!doctype html>
+<html>
+  <head>
+    <script defer src='{% static "schema_graph/main.js" %}'></script>
+    <script>
+      window.abstractModels = {{ abstract_models|safe }};
+      window.models = {{ models|safe }};
+      window.connections = {
+        foreignkey: {{ foreign_keys|safe }},
+        many2many: {{ many_to_manys|safe }},
+        one2one: {{ one_to_ones|safe }},
+        subclass: {{ inheritance|safe }},
+        proxy: {{ proxies|safe }},
+      };
+    </script>
+    <style>
+      html {
+        overflow-y: auto !important; /* Override vuetify */
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="schema-graph-app"></div>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  </body>
+</html>
