@@ -14,6 +14,12 @@ import os
 from decouple import config
 config.encoding = 'cp1251'
 import base64
+
+base64_password = config('EMAIL_HOST_PASSWORD')
+base64_bytes = base64_password.encode('ascii')
+password_bytes = base64.b64decode(base64_bytes)
+password = password_bytes.decode('ascii')
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -159,8 +165,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT =config('EMAIL_PORT', cast=int)
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
-
+EMAIL_HOST_PASSWORD = password
 
 # Django-Allauth Config
 
