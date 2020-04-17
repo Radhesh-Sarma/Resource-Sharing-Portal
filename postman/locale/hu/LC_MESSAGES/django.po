@@ -1,0 +1,614 @@
+# Hungarian translation of django-postman.
+# Copyright (C) 2016 Patrick Samson
+# This file is distributed under the same license as the django-postman package.
+# 
+# Translators:
+# istvanf <istvan.farkas@gmail.com>, 2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: django-postman\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-01 11:05+0100\n"
+"PO-Revision-Date: 2017-01-05 20:07+0000\n"
+"Last-Translator: istvanf <istvan.farkas@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/psam/django-postman/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Translators: keep consistency with the <option> parameter in url translations ; 'm' stands for 'messages'
+#: .\__init__.py:23
+msgctxt "postman_url"
+msgid "m"
+msgstr "m"
+
+#: .\admin.py:30
+msgid "Sender and Recipient cannot be both undefined."
+msgstr "A küldő és címzett mező nem lehet egyszerre üres."
+
+#: .\admin.py:37
+msgid "Visitor's email is in excess."
+msgstr "A látogató e-mail címe felesleges."
+
+#: .\admin.py:42
+msgid "Visitor's email is missing."
+msgstr "A látogató e-mail címe hiányzik."
+
+#: .\admin.py:48
+msgid "Reading date must be later than sending date."
+msgstr "Az olvasás időpontjának a küldés ideje utánra kell esnie."
+
+#: .\admin.py:53
+msgid "Deletion date by sender must be later than sending date."
+msgstr "A küldő által történő törlés időpontja későbbi kell, hogy legyen, mint a küldés időpontja."
+
+#: .\admin.py:58
+msgid "Deletion date by recipient must be later than sending date."
+msgstr "A címzet által történő törlés időpontja későbbi kell, hogy legyen, mint a küldés időpontja."
+
+#: .\admin.py:66
+msgid "Response date must be later than sending date."
+msgstr "A válasz idejének későbbre kell esnie, mint a küldés időpontjának."
+
+#: .\admin.py:68
+msgid "The message cannot be replied without having been read."
+msgstr "Az üzenetre nem lehet annak elolvasása nélkül válaszolni."
+
+#: .\admin.py:70
+msgid "Response date must be later than reading date."
+msgstr "A válasz időpontja későbbi kell, hogy legyen, mint az olvasás időpontja."
+
+#: .\admin.py:72
+msgid "Response date cannot be set without at least one reply."
+msgstr "A válasz időpontját nem lehet beállítani, ha nincs legalább egy válasz üzenet."
+
+#: .\admin.py:74
+msgid "The message cannot be replied without being in a conversation."
+msgstr "Az üzenetre nem lehet válaszolni, ha az nem egy beszélgetés része."
+
+#: .\admin.py:97 .\admin.py:179 .\templates\postman\view.html:5
+msgid "Message"
+msgstr "Üzenet"
+
+#: .\admin.py:102
+msgid "Dates"
+msgstr "Dátum"
+
+#: .\admin.py:107 .\admin.py:183
+msgid "Moderation"
+msgstr "Moderálás"
+
+#: .\fields.py:30
+msgid "Some usernames are unknown or no longer active: {users}."
+msgstr "Néhány felhasználónév ismeretlen, vagy már nem aktív: {users}."
+
+#: .\fields.py:31
+msgid ""
+"Ensure this value has at most {limit_value} distinct items (it has "
+"{show_value})."
+msgstr "Ennek a mezőnek maximum {limit_value} eleme lehet (jelenleg {show_value} van)."
+
+#: .\fields.py:32
+msgid ""
+"Ensure this value has at least {limit_value} distinct items (it has "
+"{show_value})."
+msgstr "Ennek a mezőnek legalább {limit_value} eleme kell, hogy legyen (jelenleg {show_value} van)."
+
+#: .\fields.py:33
+msgid "Some usernames are rejected: {users}."
+msgstr "Néhány felhasználónév vissza lett utasítva: {users}."
+
+#: .\fields.py:34 .\forms.py:69
+msgid "{username}"
+msgstr "{username}"
+
+#: .\fields.py:35 .\forms.py:70
+msgid "{username} ({reason})"
+msgstr "{username}({reason})"
+
+#: .\forms.py:68
+msgid "Writing to some users is not possible: {users}."
+msgstr "A következő felhasználóknak nem lehet üzenetet küldeni: {users}."
+
+#: .\forms.py:155 .\forms.py:168
+msgid "Recipients"
+msgstr "Címzettek"
+
+#: .\forms.py:155 .\forms.py:168 .\templates\postman\base_folder.html:35
+#: .\templates\postman\reply.html:4
+msgid "Recipient"
+msgstr "Címzett"
+
+#: .\forms.py:167
+msgid "Email"
+msgstr "E-mail"
+
+#: .\forms.py:184
+msgid "Undefined recipient."
+msgstr "Érvénytelen címzett."
+
+#: .\forms.py:219
+msgid "Additional recipients"
+msgstr "További címzettek"
+
+#: .\forms.py:219
+msgid "Additional recipient"
+msgstr "További címzett"
+
+#: .\management\__init__.py:20
+msgid "Message Rejected"
+msgstr "Üzenet visszaküldve"
+
+#: .\management\__init__.py:20
+msgid "Your message has been rejected"
+msgstr "Az üzenetet a fogadó fél visszaküldte"
+
+#: .\management\__init__.py:21
+msgid "Message Received"
+msgstr "Üzenet kézbesítve"
+
+#: .\management\__init__.py:21
+msgid "You have received a message"
+msgstr "Üzenet érkezett"
+
+#: .\management\__init__.py:22
+msgid "Reply Received"
+msgstr "Válasz kézbesítve"
+
+#: .\management\__init__.py:22
+msgid "You have received a reply"
+msgstr "Válasz érkezett"
+
+#: .\models.py:28
+msgid "Pending"
+msgstr "Folyamatban"
+
+#: .\models.py:29
+msgid "Accepted"
+msgstr "Elfogadva"
+
+#: .\models.py:30 .\templates\postman\view.html:13
+msgid "Rejected"
+msgstr "Visszaküldve"
+
+#: .\models.py:261
+msgid "subject"
+msgstr "tárgy"
+
+#: .\models.py:262
+msgid "body"
+msgstr "szöveg"
+
+#: .\models.py:263 .\models.py:346
+msgid "sender"
+msgstr "küldő"
+
+#: .\models.py:264 .\models.py:370
+msgid "recipient"
+msgstr "címzett"
+
+#: .\models.py:265
+msgid "visitor"
+msgstr "látogató"
+
+#: .\models.py:266
+msgid "parent message"
+msgstr "szülő üzenet"
+
+#: .\models.py:267
+msgid "root message"
+msgstr "első üzenet"
+
+#: .\models.py:268
+msgid "sent at"
+msgstr "küldés ideje"
+
+#: .\models.py:269
+msgid "read at"
+msgstr "olvasás ideje"
+
+#: .\models.py:270
+msgid "replied at"
+msgstr "válasz ideje"
+
+#: .\models.py:271
+msgid "archived by sender"
+msgstr "a küldő archiválta"
+
+#: .\models.py:272
+msgid "archived by recipient"
+msgstr "a címzett archiválta"
+
+#: .\models.py:273
+msgid "deleted by sender at"
+msgstr "a küldő törölte ekkor:"
+
+#: .\models.py:274
+msgid "deleted by recipient at"
+msgstr "a címzett törölte ekkor:"
+
+#: .\models.py:276
+msgid "status"
+msgstr "státusz"
+
+#: .\models.py:278
+msgid "moderator"
+msgstr "moderátor"
+
+#: .\models.py:279
+msgid "moderated at"
+msgstr "moderálva:"
+
+#: .\models.py:280
+msgid "rejection reason"
+msgstr "visszautasítás indoka"
+
+#: .\models.py:285
+msgid "message"
+msgstr "üzenet"
+
+#: .\models.py:286
+msgid "messages"
+msgstr "üzenetek"
+
+#: .\models.py:398
+msgid "Undefined sender."
+msgstr "Érvénytelen küldő."
+
+#: .\models.py:546
+msgid "pending message"
+msgstr "várakozó üzenet"
+
+#: .\models.py:547
+msgid "pending messages"
+msgstr "várakozó üzenetek"
+
+#: .\templates\admin\postman\pendingmessage\change_form.html:17
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Kérjük javítsa az alábbi hibát."
+msgstr[1] "Kérjük javítsa az alábbi hibákat."
+
+#: .\templates\admin\postman\pendingmessage\submit_line.html:6
+msgid "Accept"
+msgstr "Elfogadás"
+
+#: .\templates\admin\postman\pendingmessage\submit_line.html:7
+msgid "Reject"
+msgstr "Visszautasítás"
+
+#: .\templates\postman\archives.html:3
+msgid "Archived Messages"
+msgstr "Archívum"
+
+#: .\templates\postman\archives.html:7
+msgid ""
+"Messages in this folder will never be removed. You can use this folder for "
+"long term storage."
+msgstr "Az ebben a mappában lévő üzenetek sosem lesznek törölve. A mappa hosszú távra történő tárolásra használható."
+
+#: .\templates\postman\base.html:3
+msgid "Messaging"
+msgstr "Üzenetküldés"
+
+#: .\templates\postman\base.html:9
+msgid "Inbox"
+msgstr "Bejövő üzenetek"
+
+#: .\templates\postman\base.html:10 .\templates\postman\sent.html:3
+msgid "Sent Messages"
+msgstr "Elküldött üzenetek"
+
+#: .\templates\postman\base.html:11 .\templates\postman\write.html:3
+msgid "Write"
+msgstr "Új üzenet"
+
+#: .\templates\postman\base.html:12
+msgid "Archives"
+msgstr "Archívum"
+
+#: .\templates\postman\base.html:13
+msgid "Trash"
+msgstr "Kuka"
+
+#: .\templates\postman\base_folder.html:15
+msgid "Sorry, this page number is invalid."
+msgstr "Sajnáljuk, de ez az oldalszám érvénytelen."
+
+#: .\templates\postman\base_folder.html:19
+msgid "by conversation"
+msgstr "szál alapján"
+
+#: .\templates\postman\base_folder.html:20
+msgid "by message"
+msgstr "üzenet alapján"
+
+#: .\templates\postman\base_folder.html:24 .\templates\postman\view.html:22
+msgid "Delete"
+msgstr "Törlés"
+
+#: .\templates\postman\base_folder.html:25 .\templates\postman\view.html:23
+msgid "Archive"
+msgstr "Archiválás"
+
+#: .\templates\postman\base_folder.html:26
+msgid "Undelete"
+msgstr "Törlés visszavonása"
+
+#: .\templates\postman\base_folder.html:27
+msgid "Mark as read"
+msgstr "Megjelölés olvasottként"
+
+#: .\templates\postman\base_folder.html:28
+msgid "Mark as unread"
+msgstr "Megjelölés olvasatlanként"
+
+#: .\templates\postman\base_folder.html:33
+msgid "Action"
+msgstr "Akció"
+
+#: .\templates\postman\base_folder.html:34
+msgid "Sender"
+msgstr "Küldő"
+
+#: .\templates\postman\base_folder.html:36
+msgid "Subject"
+msgstr "Tárgy"
+
+#: .\templates\postman\base_folder.html:37
+msgid "Date"
+msgstr "Dátum"
+
+#: .\templates\postman\base_folder.html:52
+msgid "g:i A,M j,n/j/y"
+msgstr "G.i,M j.,Y.m.d."
+
+#: .\templates\postman\base_folder.html:59
+msgid "No messages."
+msgstr "Nincs üzenet."
+
+#: .\templates\postman\base_write.html:18
+msgid "Send"
+msgstr "Elküld"
+
+#: .\templates\postman\email_user.txt:1
+msgid "Dear user,"
+msgstr "Kedves felhasználó,"
+
+#: .\templates\postman\email_user.txt:3
+#: .\templates\postman\email_visitor.txt:3
+#, python-format
+msgid "On %(date)s, you asked to send a message to the user '%(recipient)s'."
+msgstr "%(date)s időpontban egy üzenet próbált küldeni a(z) '%(recipient)s' felhasználónak."
+
+#: .\templates\postman\email_user.txt:5
+#: .\templates\postman\email_visitor.txt:5
+msgid "Your message has been rejected by the moderator"
+msgstr "Az üzenetet a moderátor visszautasította"
+
+#: .\templates\postman\email_user.txt:5
+#: .\templates\postman\email_visitor.txt:5
+msgid ", for the following reason:"
+msgstr ", a következő indokkal:"
+
+#: .\templates\postman\email_user.txt:9
+#: .\templates\postman\email_visitor.txt:10
+#, python-format
+msgid "On %(date)s, you sent a message to the user '%(sender)s'."
+msgstr "%(date)s időpontban egy üzenetet küldött a(z) '%(sender)s' felhasználónak."
+
+#: .\templates\postman\email_user.txt:10
+msgid "Your correspondent has given you an answer."
+msgstr "Az üzenet címzettje válaszolt."
+
+#: .\templates\postman\email_user.txt:11
+#, python-format
+msgid "You have received a copy of a response from the user '%(sender)s'."
+msgstr "Másolat érkezett egy válaszról, a küldője '%(sender)s'."
+
+#: .\templates\postman\email_user.txt:13
+#, python-format
+msgid "You have received a message from the user '%(sender)s'."
+msgstr "Üzenet érkezett, a feladója '%(sender)s'."
+
+#: .\templates\postman\email_user.txt:16
+#: .\templates\postman\email_visitor.txt:14
+msgid "Thank you again for your interest in our services."
+msgstr "Köszönjük, hogy használta rendszerünket."
+
+#: .\templates\postman\email_user.txt:17
+#: .\templates\postman\email_visitor.txt:16
+msgid "The site administrator"
+msgstr "Az oldal adminisztrátora"
+
+#: .\templates\postman\email_user.txt:19
+#: .\templates\postman\email_visitor.txt:18
+msgid ""
+"Note: This message is issued by an automated system.\n"
+"Do not reply, this would not be taken into account."
+msgstr "Megjegyzés: ezt az üzenetet egy automata rendszer küldte.\nKérjük ne válaszoljon rá."
+
+#: .\templates\postman\email_user_subject.txt:1
+#: .\templates\postman\email_visitor_subject.txt:1
+#, python-format
+msgid "Message \"%(subject)s\" on the site %(sitename)s"
+msgstr "\"%(subject)s\" tárgyú üzenet a(z) %(sitename)s oldalon"
+
+#: .\templates\postman\email_visitor.txt:1
+msgid "Dear visitor,"
+msgstr "Kedves látogatónk,"
+
+#: .\templates\postman\email_visitor.txt:8
+msgid "As a reminder, please find below the content of your message."
+msgstr "Emlékeztetőként alább olvasható az üzenet."
+
+#: .\templates\postman\email_visitor.txt:11
+msgid "Please find below the answer from your correspondent."
+msgstr "A partner válasza alább olvasható."
+
+#: .\templates\postman\email_visitor.txt:15
+msgid "For more comfort, we encourage you to open an account on the site."
+msgstr "A kényelmesebb üzenetküldés érdekében arra bátorítjuk, hogy regisztráljon az oldalon."
+
+#: .\templates\postman\inbox.html:3
+msgid "Received Messages"
+msgstr "Beérkezett üzenetek"
+
+#: .\templates\postman\inbox.html:6
+msgid "Received"
+msgstr "Beérkezett"
+
+#: .\templates\postman\reply.html:3 .\templates\postman\view.html:25
+#: .\templates\postman\view.html:28 .\templates\postman\view.html:31
+msgid "Reply"
+msgstr "Válasz"
+
+#: .\templates\postman\sent.html:8
+msgid "Sent"
+msgstr "Elküldve"
+
+#: .\templates\postman\trash.html:3
+msgid "Deleted Messages"
+msgstr "Törölt üzenetek"
+
+#: .\templates\postman\trash.html:10
+msgid ""
+"Messages in this folder can be removed from time to time. For long term "
+"storage, use instead the archive folder."
+msgstr "Az itt lévő üzeneteket a rendszer hétvégenként törli. Hosszú távú tárolásra kérjük használja az archívum mappát."
+
+#: .\templates\postman\view.html:5
+msgid "Conversation"
+msgstr "Társalgás"
+
+#: .\templates\postman\view.html:13
+msgid ":"
+msgstr ":"
+
+#: .\templates\postman\view.html:20
+msgid "Back"
+msgstr "Vissza"
+
+#: .\templatetags\postman_tags.py:47
+msgid "<me>"
+msgstr "<én>"
+
+#. Translators: keep consistency of the <option> parameter with the translation for 'm'
+#: .\urls.py:106
+msgctxt "postman_url"
+msgid "^inbox/(?:(?P<option>m)/)?$"
+msgstr "^beerkezo/(?:(?P<option>m)/)?$"
+
+#. Translators: keep consistency of the <option> parameter with the translation for 'm'
+#: .\urls.py:108
+msgctxt "postman_url"
+msgid "^sent/(?:(?P<option>m)/)?$"
+msgstr "^elkuldott/(?:(?P<option>m)/)?$"
+
+#. Translators: keep consistency of the <option> parameter with the translation for 'm'
+#: .\urls.py:110
+msgctxt "postman_url"
+msgid "^archives/(?:(?P<option>m)/)?$"
+msgstr "^archivum/(?:(?P<option>m)/)?$"
+
+#. Translators: keep consistency of the <option> parameter with the translation for 'm'
+#: .\urls.py:112
+msgctxt "postman_url"
+msgid "^trash/(?:(?P<option>m)/)?$"
+msgstr "^kuka/(?:(?P<option>m)/)?$"
+
+#: .\urls.py:113
+msgctxt "postman_url"
+msgid "^write/(?:(?P<recipients>[^/#]+)/)?$"
+msgstr "^leveliras/(?:(?P<recipients>[^/#]+)/)?$"
+
+#: .\urls.py:114
+msgctxt "postman_url"
+msgid "^reply/(?P<message_id>[\\d]+)/$"
+msgstr "^valasz/(?P<message_id>[\\d]+)/$"
+
+#: .\urls.py:115
+msgctxt "postman_url"
+msgid "^view/(?P<message_id>[\\d]+)/$"
+msgstr "^olvas/(?P<message_id>[\\d]+)/$"
+
+#. Translators: 't' stands for 'thread'
+#: .\urls.py:117
+msgctxt "postman_url"
+msgid "^view/t/(?P<thread_id>[\\d]+)/$"
+msgstr "^olvas/t/(?P<thread_id>[\\d]+)/$"
+
+#: .\urls.py:118
+msgctxt "postman_url"
+msgid "^archive/$"
+msgstr "^archival/$"
+
+#: .\urls.py:119
+msgctxt "postman_url"
+msgid "^delete/$"
+msgstr "^torol/$"
+
+#: .\urls.py:120
+msgctxt "postman_url"
+msgid "^undelete/$"
+msgstr "^visszaallit/$"
+
+#: .\urls.py:121
+msgctxt "postman_url"
+msgid "^mark-read/$"
+msgstr "^olvasottnak-jelol/$"
+
+#: .\urls.py:122
+msgctxt "postman_url"
+msgid "^mark-unread/$"
+msgstr "^olvasatlannak-jelol/$"
+
+#: .\utils.py:65
+msgid "> "
+msgstr ">"
+
+#: .\utils.py:81
+msgid ""
+"\n"
+"\n"
+"{sender} wrote:\n"
+"{body}\n"
+msgstr "\n\n{sender} üzenete:\n{body}\n"
+
+#: .\utils.py:91
+msgid "Re: {subject}"
+msgstr "Válasz: {subject}"
+
+#: .\views.py:194
+msgid "Message successfully sent."
+msgstr "Üzenet sikeresen elküldve."
+
+#: .\views.py:196
+msgid "Message rejected for at least one recipient."
+msgstr "Az üzenet egy vagy több felhasználónak nem lett kézbesítve."
+
+#: .\views.py:414
+msgid "Select at least one object."
+msgstr "Kérjük válasszon ki legalább egy elemet."
+
+#: .\views.py:427
+msgid "Messages or conversations successfully archived."
+msgstr "Üzenetek sikeresen archiválva."
+
+#: .\views.py:434
+msgid "Messages or conversations successfully deleted."
+msgstr "Üzenetek törölve."
+
+#: .\views.py:441
+msgid "Messages or conversations successfully recovered."
+msgstr "Üzenetek visszaállítva."
+
+#: .\views.py:452
+msgid "Messages or conversations successfully marked as read."
+msgstr "Üzenetek sikeresen megjelölve olvasottként."
+
+#: .\views.py:458
+msgid "Messages or conversations successfully marked as unread."
+msgstr "Üzenetek sikeresen megjelölve olvasatlanként."

@@ -11,14 +11,10 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from decouple import config
-config.encoding = 'cp1251'
-import base64
+#from decouple import config
+#config.encoding = 'cp1251'
+#import base64
 
-base64_password = config('EMAIL_HOST_PASSWORD')
-base64_bytes = base64_password.encode('ascii')
-password_bytes = base64.b64decode(base64_bytes)
-password = password_bytes.decode('ascii')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,12 +25,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = '43)%4yx)aa@a=+_c(fn&kf3g29xax+=+a&key9i=!98zyim=8j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', cast=bool)
+DEBUG = True
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=lambda v: [s.strip() for s in v.split(',')])
+ALLOWED_HOSTS = ['*']
 #Add your LAN ip here to host it on campus
 
 # Application definition
@@ -50,6 +46,10 @@ INSTALLED_APPS = [
     'django.contrib.admindocs',
     'rest_framework',
     'schema_graph',
+    'account_post',
+    'postman',
+    'pinax_theme_bootstrap',
+    'bootstrapform',
 
     # Third-party
     'allauth',
@@ -73,6 +73,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_user_agents.middleware.UserAgentMiddleware',
+    'account_post.middleware.LocaleMiddleware',
+    'account_post.middleware.TimezoneMiddleware',
 ]
 
 ROOT_URLCONF = 'mpi_project.urls'
@@ -87,10 +89,24 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "django.template.context_processors.debug",
+                "django.template.context_processors.i18n",
+                "django.template.context_processors.media",
+                "django.template.context_processors.static",
+                "django.template.context_processors.tz",
+
+                "account_post.context_processors.account",
+                "pinax_theme_bootstrap.context_processors.theme"
             ],
         },
     },
 ]
+
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+)
+
 
 #WSGI_APPLICATION = 'mpi_project.wsgi.application'
 
@@ -101,15 +117,14 @@ TEMPLATES = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
         'PORT': '',
 
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -148,6 +163,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
@@ -163,9 +184,9 @@ AUTH_USER_MODEL = 'users.CustomUser'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
-EMAIL_PORT =config('EMAIL_PORT', cast=int)
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = password
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'bookmycab123123@gmail.com'
+EMAIL_HOST_PASSWORD = 'jaibajrangbali'
 
 # Django-Allauth Config
 
@@ -179,6 +200,8 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 2
 
+ACCOUNT_USER_DISPLAY = lambda user: user.username
+ACCOUNT_OPEN_SIGNUP =True
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = True
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'username'
@@ -186,11 +209,18 @@ ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_CREATE_ON_SAVE= True
 
 ACCOUNT_FORMS = {'signup':'users.forms.CustomUserCreationForm'}
 #ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_EMAIL_SUBJECT_PREFIX = "[MPI PROJECT]" 
 
-RECAPTCHA_PUBLIC_KEY = config('RECAPTCHA_PUBLIC_KEY')
-RECAPTCHA_PRIVATE_KEY = config('RECAPTCHA_PRIVATE_KEY')
+RECAPTCHA_PUBLIC_KEY = '6LcXG9sUAAAAALM6aWER_9nwVMvwt-fLMGdPbxpR'
+RECAPTCHA_PRIVATE_KEY = '6LcXG9sUAAAAAKTjAlGPU67MXDSg3w7FTZcJ-su3'
 
+#base64_password = config('EMAIL_HOST_PASSWORD')
+#base64_bytes = base64_password.encode('ascii')
+#password_bytes = base64.b64decode(base64_bytes)
+#password = password_bytes.decode('ascii')
+
+POSTMAN_AUTO_MODERATE_AS = True
