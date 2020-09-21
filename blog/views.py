@@ -5,8 +5,6 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user_model
-from ipware import get_client_ip
-import datetime
 from django.core.mail import send_mail
 from mpi_project.settings import EMAIL_HOST_USER
 from users.models import CustomUser
